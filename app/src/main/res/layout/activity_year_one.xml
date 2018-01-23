@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="ng.com.blogspot.httpofficialceo.fmtmobile.YearOneActivity">
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:text="@string/course_text"
+            android:textSize="20sp"
+            android:padding="10dip" />
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/code_text"
+            android:padding="10dip" />
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/unit_text"
+            android:gravity="right"
+            android:padding="10dip" />
+
+
+    </TableRow>
+
+</TableLayout>

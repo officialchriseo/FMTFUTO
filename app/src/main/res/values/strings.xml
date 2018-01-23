@@ -1,0 +1,845 @@
+<resources>
+    <string name="app_name">FMT FUTO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="simple_interest_result_text">"Your result will be displayed here after calculations"</string>
+
+    <string name="course_text">Course</string>
+    <string name="code_text">Code</string>
+    <string name="unit_text">Unit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="names">
+        <item>Prof. Anyanwu Aloysius Ndubuisi</item>
+        <item>Prof. Nwezeaku C. Nathaniel</item>
+        <item>Prof. Nzotta M. Samuel</item>
+        <item>Dr. Akujuobi E. Linus</item>
+        <item>Dr. Akujuobi B. C. Aghalugbulam</item>
+        <item>Dr Chigbu E Emmanuel</item>
+        <item>Dr. Mrs. Okoli N. Margaret</item>
+        <item>Dr. Ozurumba Benedict Benedict</item>
+        <item>Dr. Nwaimo Chilaka Emmanuel</item>
+        <item>Mr. Ugwu Kelechi Enyinna</item>
+        <item>Ms. Chukwu Chiamaka Sophie</item>
+        <item>Mr. Emerole Chimezie Ikechukwu</item>
+        <item>Mr. Njoku Odinaka Charles</item>
+        <item>Mrs. Onyechere Onyinyechi</item>
+        <item>Mr. Osuji A. Emmanuel</item>
+    </string-array>
+
+    <string-array name="positions">
+        <item>Professor</item>
+        <item>Professor</item>
+        <item>Professor</item>
+        <item>Senior Lecturer</item>
+        <item>Senior Lecturer</item>
+        <item>Senior Lecturer</item>
+        <item>Senior Lecturer</item>
+        <item>Lecturer 1</item>
+        <item>Assistant Lecturer</item>
+        <item>Assistant Lecturer</item>
+        <item>Graduate Assistant</item>
+        <item>Graduate Assistant</item>
+        <item>Graduate Assistant</item>
+        <item>Graduate Assistant</item>
+        <item>Graduate Assistant</item>
+    </string-array>
+
+    <array name="staffPictures">
+        <item>@drawable/a_staff</item>
+        <item>@drawable/b_staff</item>
+        <item>@drawable/c_staff</item>
+        <item>@drawable/d_staff</item>
+        <item>@drawable/e_staff</item>
+        <item>@drawable/f_staff</item>
+        <item>@drawable/g_staff</item>
+        <item>@drawable/h_staff</item>
+        <item>@drawable/i_staff</item>
+        <item>@drawable/j_staff</item>
+        <item>@drawable/k_staff</item>
+        <item>@drawable/l_staff</item>
+        <item>@drawable/m_staff</item>
+        <item>@drawable/n_staff</item>
+        <item>@drawable/o_staff</item>
+    </array>
+
+
+    <string-array name="compounding_array">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Semiannually</item>
+        <item>Annually</item>
+        <item>No Compounding</item>
+    </string-array>
+    <string name="title_activity_about_department">AboutDepartment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string-array name="lecturer_informations">
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    Community Secondary School Mberi, Gce – 1979
+    University Of Ibadan Extra-Mural Classes Ikeja, Gce – 1983
+    University Of Lagos – Bsc. (Accounting), 1995
+    Abubakar Tafawa Balewa University – Mba (Marketing), 2000
+    University Of Lagos – Msc. (Organisational Behaviour), 2002
+    Ican Professional 1 Candidate
+    Certified Microfinance Training Service Provider
+
+Membership of professional bodies
+
+    Aiico Insurance Plc (Multinational Insurance Company) Accounts Clerk – Disbursement Section, 1978 – 1982
+    Senior Accounts Clerk Bank Reconciliation Section, 1983 - 1988
+    Supervisor Corporative Assets, 1989 – 1998
+    Manager Disbursement Section, 1998 – 2001
+    Secretary Ofeama Development Union(Village Union), 1986 - 1990
+    Treasurer Ofeama Development Union, 1994 - 1999
+    Member Association Of Sacred Heart Of Jesus (Religion Ass.)
+    President Nguru Development Union Lagos Branch, 1995 – 1998
+    President General Enyiamaka Age Grade Ofeama/Umuagbara, Obibi Nguru, 1996 – 2003
+
+Publications
+
+    Reading In Advance Organisation Behaviour
+    A Study Of The Relationship Between Compensation Package, Work Motivation And Job Satisfaction
+    Power, Politics And Conflict In Organisation
+
+Working Experience
+
+    Consultant Ii, 2002 – 2005
+    Consultant I, 2006 – 2008
+    Senior Consultant Federal University Of Technology Owerri. Lecturer, 2011 – Till Date
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    B.Sc., 1983, Business administration, University of Benin
+    MBA.,1991, Banking and Finance ,Federal University of Technology ,Owerri ,Imo State, Nigeria
+    Ph.D., 2002, Banking and Finance, Federal University of Technology ,Owerri ,Imo State, Nigeria.
+
+Membership of professional bodies
+
+    Fellow, Chartered Institute Of Taxation Of Nigeria (Citn)
+    Fellow, International Academy For Business Research
+    Member, Nigeria Institute Of Management (Mnim)
+    Member, American Finance Association (Afa
+
+Publications
+
+    Nwezeaku N.C. (2010) the Impact of Public Sector Financial Management on the economies of Sub-Saharan Africa. International Research Journal of Finance and Economics (EuroJournals). issue 40.
+    Nwezeaku N.C. (2010). The Effects of Financial Deepening of Stock Market Returs and Volatility: Evidence from Nigeria. International Research Journal of Finance and Economics (EuroJournals). issue 40.
+    Nwezeaku N.C. (2010) A Discriminant Analysis of public sector financial Management Performance of the Economies of sub Saharan Africa (A study of Nigeria and Ghana ). Interdisciplinary Journal of Contemporary Research in Business Vol.1, No. 11 March.
+    Nwezeaku N.C. (2010) An Empirical assessment of the predictive powers of Liquid and Non-Liquid Financial Measures. Interdisciplinary Journal of Contemporary Research in Business Vol.1, No.11 March.
+    Nwezeaku N.C. &amp;ampAkujobi A. (2010) Monetary Policy and Bank Performance The Nigerian Experience. Interdisciplinary Journal of Contemporary Research in Business Vol.1, No.12 March.
+    Nwezeaku N.C. &amp;Akujobi (2010) Impact of Sectoral Credits on The Performance of Banks in Nigeria. Interdisciplinary Journal of Contemporary Research in Business Vol.1, No.12 March.
+    N.C. Nwezeaku,&amp; Okpara, G (2010) Stock Market Volatility and Information Asymmetry: Lessons from Nigeria. Interdisciplinary Journal of Contemporary Research in Business Vol.1, No.12 March
+    Okpara, G. &amp; N.C. Nwezeaku (2009). Idiosyncratic Risk and the Cross-section of Expected Stock Returns (Evidence from Nigeria) European Journal of Economics, Finance and Administrative studies (Eurojournal) issue 17, March.
+    Nwezeaku, N.C.(2007) Impact of Globalization on the Industrial Growth of Developing Economies: Evidence from Nigeria: International Journal of Agriculture and Rural Development 9(1):100-107.
+    Nwezeaku, N.C.(2007 The Impact of Exchange Rate Fluctuations on Nigeria’s Industrial Growth: Nigerian Journal of Economic and Financial Research Vol. 1 No. 2:85-99
+    Akujuobi, A.B.C.; and N.C. Nwezeaku,(2007) Predicting the Influence of the Preferred Sectors on the Nigerian Capital Market: International Journal of Development Studies and Management Review Vol. No.1. 127-140
+    Nwezeaku, N.C.(2006) Impact of Asset Structure on Bank performance: (A Study of selected Commercial Banks in Nigeria): Inter-World Journal of Management and Development Studies Vol.2, No.1. 88-102
+    Nwezeaku, N.C.(2005) Failure Prediction Models in The Nigerian Banking Industry: Journal of Industrial Business and Economic Research (JIBER) Vol.8, No.2.166-213
+    Nwezeaku, N.C.(2005) An Empirical Investigation into the Cost of Business Financing in The Nigerian financial System:Nigerian Journal of Economic and Financial Research. .VOL.1 NO 3
+    Nwezeaku, N.C.(2004) Profile Analysis as an Indicator of Distress in the Nigerian Banking Industry: Journal of Industrial Business and Economic Research (JIBER) Vol.1, No.1.96-116.
+    Asiegbu, B.C.; N.C. Nwezeaku and K.E. UMUNNAKWE (2000) Market Share Analysis and Sustenance for product Development in A Competitive Environment: Quarterly Journal of Inter-University friendship Association. Vol.2, No.1. 105-115.
+    Nwezeaku, N.C.(2000) Setting Corporate objective in a dynamic Business Environment: Quarterly Journal of Inter- University Friendship Association Vol.2, No.1. 89-96.
+    Nwezeaku, N.C. (1999) Mutual Funds and Its Contribution to Project Financing: Journal of Project Management Technology Vol.3 No.1-9.
+    Nwezeaku, N.C.; B.C. Asiegbu and G.F. Okorafor (1998) Determination of Share Prices in the Nigerian Capital Market and Theoretical Business Valuations: Journal of Arts and Social Sciences Vol.1, No.1. 42-64.
+    Okorafor, G.F. and N.C. Nwezeaku (1998) An overview of International Trade and Balance of Payment Accounts: The Nigerian Experience Journal of Arts and Social Sciences vol.1,No.1.116-130
+    ONYEAGORO, E.A.; S.M. NZOTTA; N.C. NWEZEAKU &amp;C.C.IBE (2001) A Feasibility Report On The Establishment Of A Commercial Printing Press FUTO PRESS LTD.
+    NWEZEAKU, N.C.; S.M. NZOTTA; C.C. IBE and T.O. EBIRINGA (2001) A Feasibility The Proposed Housing Scheme For Staff and Students of FUTO
+    Nwezeaku, N.C.(1998) The Nigerian Financial System: Overview of the Capital Market Contemporary Readings in Management Technology. Readon Publishers Ltd.
+    Nwezeaku, N.C.(1998) “ Capital Reconstruction Reorganization and Reduction Schemes As Corporate Remedies for Liquidation and Distress” Topical Issues in Finance and Management (127-148) Katzen Publishers Ltd.
+    Nwezeaku, N.C. (1998) “Application of the CAPM to the Cost of Capital” Topical Issues in Finance and Management 137-148 Katzen Publishers Ltd.
+    Nwezeaku, N.C.(1996) “The Crisis of National Development in Nigeria: The Dilemma of the Financial System” 30-37, T.Y. Obah Ed.
+    NWEZEAKU, N.C (2006); Taxation in Nigeria Principles and Practice. Springfield Publishers Ltd.
+    NWEZEAKU, N.C.(2007) Theories and Practice of Financial Management. Springfield Publishers Ltd.
+
+
+Responsibilities
+
+    Professor, 2010 –Present
+    Associate Professor, 2007-2010
+    Senior Lecturer, 2000-2007
+    Lecturer 1, 1996-2000
+    Investment
+    Public Finance
+    Corporate Finance
+    Banking
+
+Working Experience
+
+    Abia State Education Board, Asst. Chief Pers.Officer, 1995-1996
+    Abia State Education Board, Principal Pers.Offi., 1992-1995
+    Imo State Education Board, Asst. Secretary. 1985-1986
+    Imo State Education Board, Asst. Secretary. 1985-1986
+    Kwara State College Of Technology, Nysc, 1984-1985
+    Director, Center For Entrepreneural Studies, 2011 Till Date
+    Head, Department Of Financial Management Tech . 2005 -2011
+    Associate Dean, School Of Management Technology, 2004 - 2005
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+
+Prof. S. M. Nzotta was born at Aba, Abia State on February 8, 1957. He started primary school at Holy Trinity Primary School Calabar in 1963. Due to the outbreak of the civil war, he proceeded to his home town Ihie, Isiala Ngwa abia State where he concluded his primary education at St Barnabas Primary School, Ihie in 1969.
+
+
+
+On completion, he proceeded to lhie High School in 1970 and later Eziama High School, Aba where he obtained the West African School Certificate in 1974.
+
+
+
+Thereafter he started working as an Auxiliary Teacher with the them Imo State Teachers Service Commission Aba, in 1974. He left in 1975and joined the then International Bank for West Africa (Afribank Nigeria Plc) as a Clerical Officer in 1975.
+
+
+
+In 1977 he entered the University of Nigeria Enugu Campus to read Finance, and he graduated in 1981 with a Second Class Upper Degree. He did his NYSC with the First Bank of Nigeria Kano between 1981 and 1982 and in 1982 he joined Afribank Nigeria Plc as an officer. In between his working life, he studied for a Master of Business Administration University of Benin (1986 - 1988).
+
+
+
+In 1985 he was appointed a branch manager and managed the bank’s (Afribank) branches at Agenebode (1985 - 90) Urualla, 1990 and Uyo 1990 - 1992. He also served as an inspector with the bank (1992 - 1993).
+
+
+
+During the period he was at Uyo, he commenced the course of study leading to a doctorate degree in Banking. He later left the bank Essence Management Consultants Lagos 1994 - 1995 as the Managing Partner and Principal Consultant.
+
+
+
+In 1995 Prof. S. M. Nzotta was appointed a lecturer at the Federal University of Technology, Owerri and promoted a Senior Lecturer in 1999. He graduated with a Doctor of Philosophy Degree in Banking in 1997/98. He was made a Reader in 2003 and Professor in Banking and Finance 2009.
+
+
+
+Prof. S. M. Nzotta has published four reputable books in Finance and Management. He has also authored numerous Journal Articles and book of readings.
+
+
+
+In addition to his academic pursuits, he has held many management positions in FUTO. He was the Coordinator FUTO Extension Services, Owerri Centre 2001 - 2002 and the Deputy Director FUTO Extension Services 2001 - 2002, Director FUTO Consult Ltd 2002 - 2006. Head of Department of Project Management Technology FUTO 2008 - 2010 and currently the Dean School of Management Technology FUTO 2011 to date. He teaches, Accounting, his research interests is in Portfolio Management and Bank restructuring.
+
+
+Academic and Professional Qualification
+
+    Eziama High School, Aba 1970-1974 WASC
+    University of Nigeria, Enugu 1977-1961 B.Sc (Hons) Finance Campus(Second Class Upper)
+    University of Benin, Benin 1986-1988 Master in Business Admin.
+    Federal University of Technology, Owerri 1990-1998 Ph.D in Banking &amp; Finance
+    Member, Nigerian Institute of Management (AMNIM)
+    Chartered Institute of Bankers (ACIB 1) (Part Qualification)
+    Institute of Chartered Accountants of Nigeria (Part Qualification)
+    Member, Chartered Institute of Administration (MCIA)
+
+
+Membership of professional bodies
+
+    Branch Manager, Afribank Nigeria Plc, Agenebode/Uyo (1985-1992)
+    Principal Consultant, Essence Consultants Nigeria, Lagos (Management Consultants) 1993-1995.
+    Executive Director, Essence Finance Ltd. Lagos 1993-1995
+    Director, Amaoji Community Bank, Amaoji Isiala Ngwa 1995-1996
+    Consultant, National Association of Small Scale Industrialist, Abia State Chapter(Youth Empowerment and Business Development Schemes) Aba,1993-1994.
+    Resource Person/Consultant, Niger Delta Development Commission, Development of the NDDC Master Plan Project on Agriculture and Aquaculture for the Niger Delta States 2002/2003.
+    Resource Person, Technology Business Incubator Project, Aba, Federal Ministry of Science and Technology, Implementation of Training Programmes on Small Business Management, Industrial Development, Youth Empowerment &amp; Job Creation 1999-2003.
+    Managing Consultant, Essence Consultants, Lagos, Implementation of Training Programmes on Youth Empowerment, Job Creation and Conflict Resolution, Owerri, 1993-1994.
+    Managing Consultant, FUTO Consult Ltd. Owerri, Implementation of FADAMA II Project Economic Studies and Community Development Programmes for Imo FADAMA Project, 2003-2004.
+    Resource Person, Workshop on Revenue Mobilization in the Local Government Areas, Owerri, Revenue Mobilization and Fiscal Commission, Abuja, 2003, 2004
+    Resource Person, Workshop on Revenue Mobilization in the Local Governments, lmo State Sponsored Workshop Owerri, 2004.
+    Managing Consultant, Workshop on Internal Auditing in the Local Governments organized by the FUTO Consult Ltd. Owerri in Association with the Dept of Intergovernmental Affairs, the Presidency, Abuja.
+    Lead Consultant, Central Bank of NigeriaJFUTO Consult, Microfinance Bank Accreditation Programme 2010.
+    Associated Member, Nigeria Institute of Management (AMNIM)
+    Institute of Chartered Accountants of Nigeria (ICAN)
+    Chartered Institute of Bankers of Nigeria (CIBN)
+    Member, Chartered Institute of Administration.
+    Deanship/Directorship/Coordinatorship, Headship, in FUTO with dates:
+    Dean, SMAT, FUTO 2011-Date
+    Head, Dept of Project Management Tech FUTO 2008-20 10
+    Director, FUTO Consultant Ltd. 200-2006
+    Deputy, Director FUTO Extension Services, 200 1-2002
+    Coordinator, FUTO Extension Services, Owerri Centre 2001-2002
+    Coordinator, FUTO/CCE Programme Joint Awards 1999-2001
+    Member, SMAT Board of Studies 1995-Date
+    Member, University Computing Facilities Committee 2002-Date
+    Member, University Library Committee 1998-Date
+    Member, (SMAT) School Conference Committee 1998-Date
+    Member, FUTO Standing Board of Surveys 2002-2006
+    Member, Project Supervision Committee of FUTO 500 CLT 1998-2001
+    Member, Endowment Fund Launching Committee PLACEF IV 2002
+    Member, Task Force on Rehabilitation of FUTO Community Bank 1998-1999
+    Member, Committee on Recapitalization of FUTO Micro-Finance Bank 2006-2007
+    Member, Committee on the FUTO International Secondary School 2006-2010
+    Member, Post Graduate Board, FUTO 2008-Date
+    Member, FUTO Senate 2008-Date
+    Staff Adviser, Society of Project Management Students, FUTO 1998-2004
+    Staff Adviser, Federation of Ngwa Students FUTO 1997-Date
+    Staff Adviser, Abia State Students FUTO 2000-Date
+    Staff Adviser PMT Students years 1-5 at various times 1 995-2002
+    External Assessor Department of Economics Imo State University 2011
+    External Examiner, Department of Banking and Finance, Imo State University, Owerri 2002-2007
+    External Resource Person for the Interview of Lecturers inBanking, Federal Polytechnic, Nekede 2001-2004-2011
+    External Assessor, Department of Banking and Finance, AbiaPolytechnic, Aba 2066
+    External Examiner, Department of Accounting, Alvan Ikoku, Federal College of Education, Owerr i 2006-20 11
+    Presented eight different papers at various Training Workshops Organized for Small Scale Industries by TBI Aba, Federal Ministry of Science and Technology.
+    Consultant NDDC Master Plan Project Agriculture/Fishery Sector 2005/2006.
+    External Examiner, Department of Management, University of Nigeria, Enugu Campus, 2000-Date
+    Served as ASUU FUTO Vice-Chairman 1999-2003
+    Served as ASUU FUTO Acting-Chairman, 2002/2003
+    Served as ASUU Zonal Coordinator, Calabar Zone 2005-2010
+    Served as ASUU Zonal Cordinator, Owerri Zone 2006-2010
+    Resource Person to ASUU NEC 2010 — Date
+    Presented papers and delivered speeches at various Leadership for a for Youths and other organizations across the country.
+    Provided free counseling services to students and other persons within and outside the University (FUTO) community.
+    Served as Executive Member Ukwa/Ngwa Welfare Association FUTO Branch 2002-2005
+    Member, Ihie Development Association, Owerri Branch.
+
+
+Publications
+
+    Nzotta, S. M. (1998) “Agro Industries as Sustainable Basis for Poverty Alleviation in Nigeria”, Paper Presented at the Nigerian Society of Engineers Conference on the Challenges of Nigerian Agricultural Engineers Towards Vision 2010, Owerri, 1997.
+    Nzotta S. M. (1998) “An Evaluation of New Management Options for the Nigerian External Debt Crisis” Paper Presented at the ABSU Conference on Political Economy of Budgeting and Planning in Nigeria Towards Sustainable Economic Development 1 the 21st Century.
+    Nzotta S. M. (2002) “Globalization and the Nigeria Banking System” Paper Presented at the 2002 Banking Conference, Abia State University, Uturu.
+    Nzotta S. M. (2006) “Corporate Governance and Ethics in Post Consolidation” Banking in Nigeria” Paper Presented at the National Conference on Structural Reforms and Management of Financial Institutions in Nigeria, Olabisi Onabanjo University, Ago-Iwoye.
+    Nzotta (2008) Reshaping Nigeria’s Business Environment Towards National Development: The University Perspective, Conference Paper, Federal Polytechnic, Owerri.
+    Enwereuzor, B.O (2007) Impact of Back’s Credit on the Growth of Small and Medium Scale Enterprises (SMES) in Nigeria (Principal Supervisor)
+    Iheduru, Ngozi G (2005) An Appraisal of the Impact of Micro Credit on Economic Growth of Nigeria. (1983-2002) (Principal Supervisor)
+    Ndugbu Michael O. (2008) The use of Multiple Discriminate Analysis in the Assessment of Commercial Bank’s Loan Defaults in Nigeria (Principal Supervision)
+    Nwachukwu C.C. (2008) An Analysis of Factors the Constrain Project Management success of Public and Private Sector Construction in Nigeria (Principal Supervisor).
+    Nwakanma, Prince C (2005) Approval Model for Evaluating Commercial Banks Performance Evidence from Nigeria (1994-2004) (Principal Supervision)
+    Nwazeaku, N.C (2992) Failure Prediction Models in the Nigerian Banking Industry (Co- Supervisor).
+    Oji, Ikechuwku O. (2008) Impact of Public Sector Financial Management on Economic Development of Developing Countries: A Study of Selected Countries (Co-supervisor)
+    Okereke, E.J. (2004) Exchange Rate Fluctuations and Macro-Economic Stability in Nigeria (1970-2001) (Principal Supervisor).
+    Okorafor, Ekpe (2008) The Risk of Arbitrage Pricing Theory on Returns of Financial Assets in the Nigerian Stock Exchange 1990-2006 (Principal Supervisor).
+    Onwusonye, S.I.J (2011) A Study of Cost of Capital and its Impact on Turnkey Building Projects in Nigeria (Co-supervisor).
+    Onyema, E.T. (2004) An Evaluation of the Financing of Small Scale Farmers by Development Finance Institutions.(Principal Supervisor)
+    Ozurumba, B.C. (2008) Impact of Public Sector Deficits on Economic Development of Nigeria (1975-2005) (Principal Supervisor)
+    Uma, V.K., Chimaobi (2004) The Effect of Efficient Portfolio Management on the Profitability of Commercial Banks in Nigeria (Principal Supervisor)
+    Nzotta S. M., Anuolam, M. and Asiegbu,M. C. (1999) “Security Selection in the Nigeria Capital Market using Reward to Volatility Criterion” Project Management Journal, Vol. 2 No. 1.
+    Nzotta S. M. and Okoroafor G. F. (1999) “Bank Credit Administration” Journal of Arts and Social Sciences Vol. 1 pp88-1 08.
+    Nzotta S. M. and Ebiringa, I. (2001) “Mergers and Acquisitions as Survival Strategy” Journal of Professional Administration Vol. 2 No. 3 July – Sept. pp 5 – 11.
+    Nzotta S. M. (2002) “The Nigerian Capital Market Challenges and Opportunities” Journal of Professional Administration, Vol. 3 No. 1
+    Nzotta S. M. (2002) “Process Design in Small Scale Industries” Inter World Journal of Management and Development Studies, Vol. 1. No. I pp. 99-108.
+    Nzota S. M. (2002) “The Role of Proper Information Management Systems in Local Government Administration” Journal of Liberal Studies Vol. 9 No.1 www.nesgroup.org.
+    Nzotta S. M. (2003) “Globalizatipn and the Nigerian Banking System: A Conceptual Framework” International Journal of Economic Indicators Vol. 5 Nos. 3 &amp; 4,(2003) “Micro Credits and Poverty Alleviation in Nigeria: A Conceptual Framework” International Journal of Economic Indicators Vol. 9 No. 2.
+    Nzotta S.M. and Okereke E.J. (2004) “Exchange Rate Policies and Economic Growth: An Investigation of the Nigerian Experience” (1970 - 2001) Journal of Economic Research, Vol. 2 No. 3 July - September.
+    Nzotta S. M. and Onwusonye S.l.J. (2004) “Project Finance: A Panacea for Efficient Procurement and Delivery of Turkey Projects” Journal of Institute of Quantity Surveyors, Vol. 11 Nos 3 July - Sept.(2005) “Bank Consolidation and Economic Development of Nigeria” International Journal of Economic Indicators. Vol. 11 No. 3 July - Sept. www.nesgroup.org.
+    Nzotta, S. M. (2005) “An Overview of Capital Projects Financing in the Local Government of Nigeria”: The Journal of Institute of Quantity Surveyors. Vol. 53 No. 4 Dec.
+    Nzotta, S.M. (2006) “Financial Accounting Information and Stakeholders Expectations: within the Global Economy” Journal of Professional Administration. VoL7 N0.1. (2006) ‘The Challenges of Post Consolidation Banking in Nigeria Journal of Economic Indicators. Vol. 12 No.2 www.nescroup.orq.(2007) “World Development Report 2007, Development and the Next Generation Economic Indicators. Vol. 13 No. 4. www.nesgroup.org.
+    Nzotta S.M. and Osuka, B.C. (2008) “Effects of Agricultural Finance on the Economic Development of Nigeria” International Journal of Agriculture, and Rural Development Vol. 11(2) www.ajol.Ijoumals/ijard.
+    Nzotta, S.M. (2008) “Corporate Governance in Post Consolidation Insurance in Nigeria” Journal of Banking and Financial Studies Vol. 1 No. 1.
+    Nzotta, S.M. (2007) “Tax Evasion Problems in Nigeria: A Critique”. The Nigerian Accountant, Journal of the Institute of Chartered Accountants of Nigeria. Vol.40 No.2.
+    Nzotta SM. and Okereke. E. J. (2009,) “Financial Deepening and Economic Development of Nigeria”; African Journal of Accounting Economics, Finance and Banking Research, Vol. 5 No. 5 ww.ijeb.com.
+    Nzotta S.M. and Okereke E.J. and Awujo, A.C. (2009) “An Evaluation of the Implementation of Nigeria Public Projects Based on Basic Success Factors”, International Journal of Finance and Policy Analyst, Vol. 2 No. 1 Pp 12—30.
+    Nzotta, S.M. and Nwachukwu C.C. (2010) “Quality Factor Indexes: A Measure of Project Success Constraints in a Developing Country”. IJCRB Journal, Vol.2 No.2
+    Nzotta S. M. (2004) Money. Banking and Finance: Theory and Practice. Lagos Jude Hudson Publishers
+    Nzotta S. M. (2001) Financial Accounting: Theory and Practice. Owerri, Oiivert Industrial Publishers.
+    Nzotta S. M. (2004) Corporate Financial Decisions Vols. I &amp; II, Owerri, Oiivert Industrial Publishers.
+    Nzotta S. M. (2010) Human Resource Management, Owerri, Olivert Industrial Publishers
+    Nzotta S. M. (1997) “Lease Financing” in Onuoha, C. (ed) Foundations of Finance and Management Port Harcourt, Educational
+    Nzotta S. M. (1997) “Cost -Volume -Profit analysis” in Onuoha, C. (ed) Foundations of Finance and Financial Management Port Harcourt, Educational Books and Investments., pp. 389 -41 1.
+    Nzotta S. M. (1998) “Venture Capital Financing in Promoting Small and Medium Scale Enterprises in Nigeria, in Abogu A. E et al (eds) Contemporary Readings in Management Technology. Owerri, Readon Publishers Ltd., pp 69 -79.
+    Nzotta S. M. (1998) “Market Research and Identification of Business Opportunities.” In Agbogu, A. E et al (eds) Contemporary Readings in Management Technology, Owerri, ReadonPublishers Ltd. pp. 135 -150.
+    Nzotta S. M. (1998) “Project Financing: in Anuolam, M.N, et al (eds) Readings in Finance and Management. Owerri Katzins Publishers, pp. 233-251.
+    Nzotta S. M. (1999) “Financial System and Investments in Nigeria,” in Iheriohanma’ E. B.J. (ed) Path to Nigerian Political and Economic Development. Last Touch Press, Owerri, pp. 113-127.
+    Nzotta S. M. (1999) “The Role of Bank Credits in Economic Development” in Iheriohanma E.B.J.(ed) Path to Nigerian Political and Economic Development. Last Touch Press, Owerri, pp.292-304.
+    Nzotta S. M. (2002) “Investment/Project Appraisal” in Onuoha, B.C. (ed) Managerial Economics Principles and Practice Port — Harcourt, Education Books and Investment Ltd., pp. 288-302.
+    Nzotta S.M. &amp; Amaechi L.N. (1999) “Entrepreneurship and Economic Development in Nigeria” in Iheriohanma, E.B.J., Touch Press, Owerri, pp.201-214.
+    Nzotta, S.M. (1996) “Feasibility Study for the Establishment of a Filling Station at Uyo Akwa Ibom State, June 1996.
+    Nzotta, S.M. et al (2001) “Commissioned Feasibility Report on the Proposed Housing Scheme for Staff and Students of FUTO” Sept. 2001.
+    Nzotta, S.M. et al (2001) “Commissioned Feasibility Report on the Establishment of a Commercial Printing Press in FUTO” 2001.
+    Nzotta, S.M. (2002) “Project Management in a Globalized Economy” Project Encomium, Professional Magazine of the Society o Project Management Technology, Maiden Edition, pp1 29.
+    Nzotta S. M. (1982) “Rural Banking in Nigeria: Problems and Prospects” The Financier Dept of Finance, UNN Enugu, pp. 9-14.
+    Akhaine, Bright (2008) An Empirical Study of the Determinants of Corporate Profits in Selected Companies in Nigeria.
+    Alozie, S.T. (2007) Impact of Foreign Exchange Rates on the Balance of Payments (1994-2003).
+    Anyenjo, L.A (2000) The Impact of Information Technology on the Marketing of Banking Services.
+    Arazu, Ijeoma F (2005) The Impact of Exchange Rate Policy on Nigeria Balance of Payment (1980-2002).
+    Etoama, S.C. (1999) An Empirical Analysis of the Effects of Interest Rates on Industrial Productivity in Nigeria.
+    Ilobah, Onuorah (2000) Capital Adequacy and Banks Operating Income.
+    Kalu, N.N. (2007) An Evaluation of the effect of Lease Financing on Industrial Growth in Nigeria.
+    Okpara, Mabel (2002) Assessing the Efficiency of Nigerian Financial System.
+    Mbaeri, Chibueze C (2004) Impact of Universal Banking on Banks Profitability.
+    Njoku, S.C. (2006) Liquidity Management and its Impact on Banks Profitability: A Study Selected Banks.
+    Nwakanma, Prince C (2000) Determinants of Share Prices on the Nigerian Stock Market. Nwosu, Bethram (1999), The Impact of New Financial Products on Bank Survival and Growth in Nigeria: A Study of Selected Banks.
+    Okwusha, Chioma A. (2008) The Effects of Portfolio Management on the Profitability of Banks in a Globalized Economy.
+    Onwudiegwu, M.N. (2010) The Effects of Public Expenditure on Economic Development of Nigeria (1981-2006)
+    Opia, Micheal (2004) Impact of Banking Supervision on the Growth of Commercial Banks in Nigeria.
+    Odunze, C.O. (1999) An Evaluation of Liquidity Management Practices. Wanbuwa, Godwin (2000) The Assessment of CBN’s Monitoring of Commercial Banks.
+
+Working Experience
+
+    Full-Time Post Masters Teaching in a University or at an equivalent level.
+    Lecturer 1, FUTO, Owerri 1995-1999
+    Senior Lecturer, FUTO Owerri 1999-2003
+    Reader (Associate Professor) FUTO, Owerri 2003-2009
+    Professor 2009-Date
+    Visiting Scholar, Dept. of Banking and Finance, University of Port Harcourt, Port Harcourt 2006-2007
+    Visiting Scholar, Dept of Banking and Finance, Anambra State University, Uli. 2006-2010
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    B.Sc., 1982, Finance, University Of Nigeria, Nsukka
+    M.Sc.,1995, Banking And Finance ,Federal University Of Technology ,Owerri ,Imo State, Nigeria
+    Ph.D., 2000, Banking And Finance ,Federal University Of Technology ,Owerri ,Imo State, Nigeria.
+
+Membership of professional bodies
+
+    Fellow, Institute Of Treasury Management Of Nigeria,(Ftm)2011.
+    Fellow, The Institute Of Chartered Economics (Fce), 2011.
+    Associate Member (Acti), The Chartered Institute Of Taxation Of Nigeria(Citn) ,2005
+    Member (Mnim) the Nigerian Institute Of Management, 2006.
+
+Publications
+
+    Okonkwo, C.K. And Akujuobi, L.E. (2011), “The Impact Of Financing Sources On The Capital Expenditure Of Anambra State Government,Nigeria 1992-2008., Interdisciplinary Journal Of Contemporary Research In Business, Issn2073-7122, February Edition, Ijcrb, Vol.2 No10 (Uk)
+    Akujuobi, A.B.C And Akujuobi, L.E., (2010) “Foreign Direct Investment And The Capital Market: Evidence From Nigeria” Interdisciplinary Journal Of Contemporary Research In Business, Issn 2073-7122, Ijcrb, November Edition Ijcrb Vol.2, No.7 (U K)
+    Akujuobi, L.E., (2010) “Monetary Policy And Nigeria’s Economic Development”, African Research Review, Vol.4(4), S/No17, October, Issn1994-9057 And Issn2070-0083, Http://Wwwafrrevjo.Com ( Ethiopia)
+    Akujuobi, L.E. And Akujuobi, A.B.C., (2010) “Privatization And Commercialization In Nigeria:Towards A Framework For Sustainable Capital Market Development”, Interdisciplinary Journal Of Contemporary Research In Business, Issn 2073-7122, Ijcrb, October Edition ,Ijcrb Vol.2,No.6 (Uk)
+    Akujuobi,L.E.Andakujuobi,A.B.C.(2009), ”Information And Communication Technology (Ict) And Bank Performance : The Nigerian Experience”, In African Research Review Vol. 3(5), Http://Wwwafrrevjo.Com (Ethiopia)
+    Akujuobi, L.E. And Kalu, I.U (2009), “State Government Finances And Real Asset Investments: The Nigerian Experience”, The African Journal Of Accounting, Economics, Finance And Banking Research (Ajaefbr) Vol.4 (4) July (Pp 1-11) Issn 1933-3463, Http:/ /Wwwglobip.Com/Africanjournal.Htm (U.S.A).
+    Akujuobi, L.E. And Akujuobi, A.B.C (2009) “Financing State Governments In Nigeria, 1980-2007”, In African Research Review, Vol. 3(3), April (Pp.204-215), Issn 1994-9057 And Issn 2070-0083. Http://Www Afrrevjo.Com (Ethiopia)
+    Akujuobi, A.B.C And Akujuobi ,L.E.(2009) “Globalization And Economic Development: Lessons From Nigeria” In International Journal Of Science, Vocational And Business Studies (Ijsvbs) Vol.5(1), March (Pp77-85), Issn O9966-9740 (South Africa)
+    Akujuobi, L.E. And Onuorah, A.C. (2008) “An Evaluation Of Nigerian Community Banks (1992–2004)”, Journal Of Research In National Development Vol. 6, No. 1, December, Pp. 134-145 Www.Trascampus.Org
+    Akujuobi, A.B.C, Akujuobi L.E. And Okorocha, K.A (2008) “Financing Options And Development Projects In The Nigerian Local Government System”, In International Journal Of Development Management Review Vol. 3 (1), May. Pp. 122 - 132, Isbn: 1597-9492.
+    Akujuobi, L.E. (2007) “Enduring Revenue Generation System For Community Development: Strategies And Modalities” In Journal Of Management Research &amp; Development, Vol. 1 No. 1, June, Pp. 29 – 38.
+    Akujuobi, L.E. And Akujuobi, A.B.C. (2007) An “Evaluation Of The Financing Of The Expenditure Profile Of State Governments In Nigeria”, Economic And Business Review Vol. 1 No. 2, July.
+    Akujuobi, A.B.C. And Akujuobi, L.E. (2007) “Exchange Rate Volatility And Economic Development”, Economic And Business Review Vol. 1 No. 1, January.
+    Akujuobi, L.E. And Onuorah, A.C. (2007) “Debt And Economic Development In Nigeria”, Journal Of Research In National Development Vol. 5, No. 2, Issn 1596-8308, December, Pp. 36-43 Www.Trascampus.Org
+    Akujuobi, L.E And Onuorah, A.C. (2007) “The Impact Of Commercial Bank Credits On Economic Development Of Nigeria, 1981-2004 ” In The International Journal Of Development And Management Review, Vol. 2, No 1, Issn. 1597 – 9492, October, Pp 200– 210.
+    Akujuobi, A.B.C. And Akujuobi, L.E. (2007) “The Nigerian Capital Market And Economic Development-A Prediction Model” In Nigerian Journal Of Economic And Financial Research, Vol. 1, No. 3, Issn; 0795-2740, July, Pp 16-29.
+    Akujuobi, L.E. And Akujuobi N.C. (2007) “An Evaluation Of Nigerian Agricultural Insurance Scheme In Imo State” In International Journal Of Development And Management Review, Vol. 1 No. 1, April, Pp. 83 – 98.
+    Akujuobi, L.E. (2007) “The Role Of Nigerian Local Governments In The Development Of Small And Medium-Scale Enterprises” In International Journal Of Development And Management Review, Vol. 1 No. 1, April, Pp. 141 – 146.
+    Akujuobi, L.E. (2006), Managing Local Government Finances In A Stressful Environment” In Nigerian Journal Of Economic And Financial Research, Vol. 1, No 1, March, Pp. 42 – 49.
+    Akujuobi, L.E. And Akujuobi, A.B.C. (2006), Fiscal Federalism And Resource Control: The Way Out Of The Nigerian Marginalization Problem” In The Nigerian Journal Of Economic And Financial Research Vol. 1, No. 1 March, Pp. 16 –24.
+    Anuolam, M.U And Akujuobi, L.E. (2001),” Analysis Of Various Criteria For Revenue Sharing In Nigeria And Elsewhere, With Special Reference To Local Governments In Journal Of Project Management Technology, Vol.3, No. 1 No, Pp. 60 – 68.
+    Akujuobi, L.E. (2006), Corporate Finance, Owerri, Springfield Publishers Ltd.
+    Akujuobi, L.E. (2006), Investment Analysis, Owerri, Adyudo Press.
+    Akujuobi, L.E. (2000), Nigerian Local Government Finance, Lagos, Mcrudoph Publishers.
+    Anuolam, M.O, Akujuobi, L.E. And Uma, V.C. (1999) Issues In Finance, Owerri, Cherry Bren Publishers
+
+Responsibilities
+
+    Investment
+    Public Finance
+    Corporate Finance
+    Banking
+
+Working Experience
+
+    Senior Lecturer, October 2008 -Present
+    Lecturer 1, Feb. 2005 to September 2008.
+    Chief Accountant, Imo State Ministry, Of Works Works and Housing, June 2004 – Feb 2005.
+    Treasurer/Chief Accountant, Ezinihitte Mbaise Local Government, Imo State, Nov 2003 to June 2004.
+    Treasurer/Chief Accountant, Oru West Local Government, Mgbidi, Aug. 2001 – Nov. 2003.
+    Treasurer/ Assistant Chief Accountant, Ideato South Local Government, Dikenafai, Imo Sttae 1998-2001.
+    Treasurer/Senior Accountant, Mbaitoli, Local Government, Imo State, 1994-1998.
+    Treasurer/Senior Accountant, Ideato South Local Government, Imo State, 1991- 1994.
+    Internal Auditor/Accountant 1 Obioma Ngwa Local Government, Old Imo State, 1989-1991.
+    Accounts Head/Accountant, Accounts Department, Mbaitoli/Ikeduru Local Schools Management Committee, Iho, Imo State 1987 – 1989.
+    Accountant Ii, Imo State Schools Management Board Headquarters Owerri, 1985-1987.
+    Accountant, Electroshed Engineering Company Ltd, Lagos, 1983-1985.
+    Accounting Teacher, Uso Grammar School, Uso, Ondo State (NYSC; 1982-1983).
+    Facilitator, National Open University Of Nigeria, Owerri Study Centre, 2009 - Present.
+    United Nations Development Programme (Undp) Consultant For Abia State Planning Commission For The Training Of Key Staff Of 17 Local Governments And Community Leaders On Policy Process Formulation, Analysis, Implementation And Monitoring, 2007
+    Adjunct Senior Lecturer, Department Of Banking And Finance, Imo State University Owerri, October 2008 -Present.
+    Adjunct Lecturer 1, Department Of Banking And Finance, Imo State University Owerri, February 2006 To September 2008.
+    Short-Term Consultant For The Conduct Of Economic Appraisal Of Approved Ldps Of Imo State Fadama Ii Project (2005).
+    Part-Time Senior Lecturer In Project Management Technology Department, Federal University Of Technology Owerri. (2003-2004).
+    Part-Time Postgraduate Lecturer University Of Calabar Owerri Study Centre (2000-2001).
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    B.Sc., 1998, Accounting, University Of Port-Harcourt, Port – Harcourt, Rivers State ,Nigeria
+    M.SC.,2001, Financial Management Technology ,Federal University Of Technology ,Owerri ,Imo State, Nigeria
+    Ph.D.,2005, Financial Management Technology ,Federal University Of Technology ,Owerri ,Imo State, Nigeria
+    Bachelor of Science (B.SC) Accounting (1998)
+    West African School Certificate (1986)
+    First School Leaving Certificate (1980)
+
+Membership of professional bodies
+
+    Member FMT Post-graduate Committee, 2006/2007-date.
+    Member FMT Post graduate committee, 2005/2006 session –date.
+    Member FMT departmental board, 2004/2005 session- date.
+    Member PMT departmental board, 2000/2001 session- 2003/2004 session.
+    Assistant Co-ordinator Post- graduate programme (PMT DEPT), 2000/2001 session-date.
+    Member SMAT Board, 2000/2001 session- date.
+    United Nations Development Programme (UNDP) consultant for Abia State planning commission for the training of key staff of 17 local Governments and community leaders on policy process formulation, analysis, implementation and monitoring, 2007.
+    Fellow,(FTM) Institute of Treasury Management of Nigeria, 2011.
+    Associate Member (ACTI), The Chartered Institute of Taxation of Nigeria(CITN) ,2005
+    Associate Member (AMNIM) The Nigerian Institute of Management , 2006.
+
+
+Publications
+
+    AKUJUOBI A.B.C. (2007), BASIC ACCOUNTING: A practical approach ever standard printing &amp; Publishing co. ltd.
+    IHEMEJE, J.C., EJIKE, E. E.AND AKUJUOBI, A.B.C. (2002), BUSINESS FINANCIAL DECISIONS. GBEMI SODIPO PRESS, ABEOKUTA.
+    UWAZIE, I. U. AND AKUJUOBI, A.B.C. (2008); TEST OF HYPOTHESES IN WRITING RESEARCCH PROJECTS IN SOCIAL SCIENCES.CHYZON CONCEPT, OWERRI.
+    AKUJUOBI, A.B.C. AND CHIMA, C.C. (2010) “NIGERIA VISION 20-2020: MYTH OR REALITY; AFRICAN JOURNAL OF SOCIAL ISSUES, VOL. 1, NO. 1., ACCEPTED.
+    NWEZEAKU, N. C. AND AKUJUOBI, A. B. C. (2010) “MONETARY POLICY AND BANK PERFORMANCE: THE NIGERIAN EXPERIENCE” INTERDISCIPLINARY JOURNAL OF CONTEMPORARY RESEARCH IN BUSINESS, VOL. 1(12) APRIL. UNITED KINGDOM (ACCEPTED).
+    NWEZEAKU, N. C. AND AKUJUOBI, A. B. C. (2010) “THE IMPACT SECTORAL CREDITS ON THE PERFORMANCE OF COMMERCIAL BANKS IN NIGERIA” INTERDISCIPLINARY JOURNAL OF CONTEMPORARY RESEARCH IN BUSINESS, VOL. 1(11) APRIL . UNITED KINGDOM (ACCEPTED).
+    AKUJUOBI, A.B.C. AND OKOLI, M. N. (2009) “CAPITAL FLIGHT DETERMINANTS AND ECONOMIC DEVELOPMENT;THE NIGERIAN EXPERIENCE; ECONOMIC AND BUSINESS REVIEW;JOURNAL OF DEPARTMENT OF ECONOMICS, EBONYI STATE UNIVERSITY , ABAKALIKI, ACCEPTED.
+    AKUJUOBI, L.E. AND AKUJUOBI, A.B.C. (2009)”INFORMATION AND COMMUNICATION TECHNOLOGY AND BANK PERFORMANCE: THE CASE OF NIGERIAN COMMERCIAL BANKS” AFRICAN RESEARCH REVIEW; AN INTERNATIONAL MULTI-DISCIPLINARY JOURNAL, VOL. 3(5). APRIL, PP227-245, ETHIOPIA.
+    OKOLI, M. N. AND AKUJUOBI, A.B.C. (2009) DETERMINANTS OF CAPITAL FLIGHT; THE CASE OF NIGERIA. INTERNATIONAL JOURNAL OF DEVELOPMENT AND MANAGEMENT REVIEW, (INJODEMAR) VOL.4 (1) JUNE PP233-246.
+    AKUJUOBI, L.E. AND AKUJUOBI, A.B.C. (2009) ”FINANCING STATE GOVERNMENTS IN NIGERIA, 1980-2007” AFRICAN RESEARCH REVIEW; AN INTERNATIONAL MULTI-DISCIPLINARY JOURNAL, VOL. 3(3). APRIL, PP204-215, ETHIOPIA.
+    AKUJUOBI, A.B.C. AND AKUJUOBI, L.E (2009)”GLOBALIZATION AND ECONOMIC DEVELOPMENT: LESSONS FROM NIGERIA” INTERNATIONAL JOURNAL OF SCIENCE , VOCATIONAL AND BUSINESS STUDIES, A PUBLICATION OF THE AFRICAN JOURNAL OF THE INTERNATIONAL CENTRE FOR CONSTRUCTIVE RESEARCH , A MULTI-DISCIPLINARY INTERNATIONAL JOURNAL ON SUSTAINABLE DEVELOPMENT VOL. 5(1). MARCH, PP77-85, SOUTH AFRICA.
+    AKUJUOBI, A.B.C. AND AKUJUOBI, L.E (2008)”FOREIGN DIRECT INVESTMENT AND THE CAPITAL MARKET: EVIDENCE FROM NIGERIA” A PUBLICATION OF THE AFRICAN JOURNAL OF THE INTERNATIONAL CENTRE FOR CONSTRUCTIVE RESEARCH, A MULTI-DISCIPLINARY INTERNATIONAL JOURNAL ON SUSTAINABLE DEVELOPMENT , VOL. 4(4). NOVEMBER, PP39-53 SOUTH AFRICA.
+    AKUJUOBI, A.B.C., AKUJUOBI, L.E AND OKOROCHA, K. A. (2008) FINANCING OPTIONS AND DEVELOPMENT PROJECTSIN THE NIGERIAN LOCAL GOVERNMENT SYSTEM. INTERNATIONAL JOURNAL OF DEVELOPMENT AND MANAGEMENT REVIEW, (INJODEMAR), VOL. 3 NO.1, MAY, PP 122–132.
+    AKUJUOBI, A.B.C. (2007) ‘FOREIGN DIRECT INVESTMENT AND CAPITAL FORMATION IN NIGERIA’, JOURNAL OF RESEARCH IN NATIONALDEVELOPMENT:WEBSITE:www.journalofscience.netfirms.com, E-MAIL: destinypublishers@yahoo.com.co.uk, NOVEMBER, VOLUME 2 NUMBER 2 DECEMBER, PP 44-54.
+    AKUJUOBI, A.B.C. (2007) ASSESSING THE IMPACT OF CAPITAL MARKET ON INDUSTRIAL DEVELOPMENT: THE CASE OF NIGERIA. INTERNATIONAL JOURNAL OF DEVELOPMENT AND MANAGEMENT REVIEW, (INJODEMAR), VOL. 2 NO.1, OCTOBER, PP 168–178.
+    AKUJUOBI, L.E AND AKUJUOBI, A.B.C. (2007) “AN EVALUATION OF THE FINANCING OF THE EXPENDITURE PROFILE STATE GOVERNMENTS IN NIGERIA. ECONOMIC AND BUSINESS REVIEW; JOURNAL OF DEPARTMENT OF ECONOMICS, EBONYI STATE UNIVERSITY, ABAKALIKI, VOL. 1 NO. 2, JULY, PP141-156.
+    AKUJUOBI, A.B.C. AND AKUJUOBI, L.E (2007) “THE NIGERIAN CAPITAL MARKETS AND ECONOMIC DEVELOPMENT – A PREDICTION MODEL”. THE NIGERIAN JOURNAL OF ECONOMIC AND FINANCIAL RESEARCH (NJEFR); WEBSITE: www.absu.edu.ng. VOL. 1, NO 3. JULY, PP16-29.
+    AKUJUOBI, A.B.C. (2007) AN ANALYSIS OF INVESTORS PREFERENCES IN THE NIGERIAN CAPITAL MARKET: A POLICY ISSUE, JOURNAL OF MANAGEMENT &amp; DEVELOPMENT &amp; DEVELOPMENT; APUBLICATION OF DEPARTMENT OF BUSINESS ADMINISTRATION,FACULTY OF ADMINISTRATION NASARAWA STATE UNIVERSITY, KEFFI. VOL. 1 NO.1, JUNE, PP 1-10.
+    AKUJUOBI, A.B.C. AND NWEZEAKU, N.C. (2007) “PREDICTING THE INFLUENCE OF THE PREFERRED SECTORS ON THE NIGERIAN CAPITAL MARKET” INTERNATIONAL JOURNAL OF DEVELOPMENT AND MANAGEMENT REVIEW (INJODEMAR)” E-MAIL: injodemarng2007@yahoo.com. VOL. 1 NO. 1. APRIL, PP 127-140.
+    AKUJUOBI, A.B.C. AND AKUJUOBI, L.E (2007) “EXCHANGE RATE VOLATILITY AND ECONOMIC DEVELOPMENT ;ECONOMIC AND BUSINESS REVIEW;JOURNAL OF DEPARTMENT OF ECONOMICS, EBONYI STATE UNIVERSITY , ABAKALIKI, ,VOL. 1 NO.1 JANUARY,PP118-133
+    AKUJUOBI, A.B.C. (2007) “RISK ANALYSIS OF CAPITAL PROJECTS; A MANAGEMENT PERSPECTIVE”. THE NIGERIAN JOURNAL OF ECONOMIC AND FINANCIAL RESEARCH (NJEFR); WEBSITE: www.absu.edu.ng. VOL. 1 NO. 2. JANUARY PP. 100-118.
+    AKUJUOBI, L.E. AND AKUJUOBI, A.B.C. (2006) “FISCAL FEDERALISM AND RESOURCE CONTROL: THE WAY OUT OF THE PROBLEM OF MARGINALIZATION”. THE NIGERIAN JOURNAL OF ECONOMIC AND FINANCIAL RESEARCH (NJEFR); WEBSITE:www.absu.edu.ng. VOL. 1 NO. 1. MARCH, PP. 16-24
+    AKUJUOBI, A.B.C. (2004) ‘EVALUATION TECHNIQUES AND INVESTMENT DECISIONS’, JOURNAL OF RESEARCH IN NATIONAL DEVELOPMENT: WEBSITE:www.journalofscience.netfirms.com, E-MAIL: destinypublishers@yahoo.com.co.uk, NOVEMBER, VOLUME 2 NUMBER 2 JUNE, PP 109-114.
+    AKUJUOBI, A.B.C. (2003)“AN EMPIRICAL ANALYSIS OF PATTERNS OF INVESTMENT IN THE NIGERIAN CAPITAL MARKET” JOURNAL OF SCIENCE, BUSINESS &amp; AGRICULTURE; WEBSITE: www.journalofscience.netfirms.com,E:MAIL:destinypublishers@yahoo.com.co.uk, OCTOBER, VOLUME 1 NUMBER 1, 4TH QUARTER, 2003, PP 52-60.
+    AKUJUOBI, A.B.C. (2003) “ASSESSING RETURNS OF CAPITAL INVESTMENTS: THE ARBITRAGE PRICING THEORY APPROACH”, JOURNAL OF RESEARCH IN NATIONAL DEVELOPMENT, OCTOBER, VOLUME 1 NUMBER 2 AND VOLUME 2 NUMBER 1 PP 67-78.
+
+Responsibilities
+
+    Investment
+    Public Finance
+    Corporate Accounting
+    Senior Lecturer, October 2010 -Present
+    Lecturer 1, October 2007 -September 2009
+    Lecturer 1, October 2004 -September 2007
+    Assistant Lecturer 1, January 2001-September 2004
+
+Working Experience
+
+    Course adviser, FMT DEPT, 2004/2005 session- date.
+    Student staff adviser, FMT DEPT, 2004/2005 session- date.
+    Course adviser, PMT DEPT, 2000/2001 session- 2004/2005 session.
+    Part time lecturing, National open University of Nigeria (Instructional/Tutorial Facilitator), October 2006-date
+    SIWES Co-ordinator, FMT DEPT. 2007/2008 – DATE"</item>
+
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    Town School Obohia 1959-1965
+    Mbaise Secondary School, Aboh 1970-1974
+    University Of Maiduguri 1978-1981
+    University Of Lagos 1983-1984
+    University Of Port Harcourt 1987-1993
+    First School Leaving Certificate Ministry Of Education, Eastern Nigeria 1965
+    Wasce, (Grade One, First Division) 1974-Waec
+    B.Sc. (Hons) Economics Second Class (Upper Division) University Of Maiduguri 1981
+    M.Sc. (Hons), Economics University Of Lagos 1984
+    Ph.D. Economics (Money And Banking) University Of Port Harcourt 1994
+
+Honours
+
+    He Was Conferred With The Chieftaincy Title Of Duru-Nmuta-Na-Amamihe-Di-Ire I (Lord Of Effective Education And Wisdom) By His Royal Highness Eze B. O. Ihejirika Ksm, And The Ikwuato Autonomous Community, Imo State Of Nigeria On December 12, 1996, For Outstanding Contributions To Education, Philanthropy, Community Development And Leadership.
+    He Was Selected For The Distinguished Awards Of Professional Fellowship Of The Institute (Pfifm) And Certified Distinguished Financial Management Educator Award (Cdfme) Of The Institute Of Financial Management Limited, Federal Republic Of Nigeria, In 1997.
+
+Membership of professional bodies
+
+    Nysc Primary Assignment – Teaching Federal Polytechnic Akure 1981-1982
+    Assistant Research Executive, Statecraft International Lagos July 20 1982-March 1983
+    Lecturer In Economics And Management School Of Management And Technology Aba, Nigeria April – August 1983
+    Lecturer In Economics, Imo State University, Etiti-Okigwe (Imosu) Nigeria October 1984-1991 Now Abia State University, Uturu 1992 – 1998
+    Lecturer In Economics, Federal University Of Technology Owerri Since The 1998/99 Session
+    Secretary, Planning Committee For Centre For Igbo Studies, Imo State University Etiti-Okigwe, 1986.
+    Member, General Studies Committee, Imosu (1987 – 1991).
+    Chairman, Examination Committee, Sebf, Abia State University, 1994.
+    Postgraduate College Liasison Officer For The School Of Economics, Banking And Finance, Abia State University, 1994 – 1995.
+    Member, Planning And Implementation Committee Institute For Distance Education, Imo State University, 1987 -1988.
+    Member Of Senate, Abia State University, 1995 – 1997.
+    Director, Collaborating Centre For Health Planning And Management, Abia State University, 1995 – 1996.
+    Member, Ceremonials Committee, (Works And Services), Abia State University 1996.
+    Member, Seminars/Workshop Committee, College Of Business Administration Absu, 1995 -1996.
+    Chairman, Postgraduate Board Of Examiners, School Of Economics, Banking And Finance, Abia State University, 1995 – 1997.
+    Editor, Journal Of Monetary Economics, Banking And Finance, Of The Emazec Global Research And Management Consult, Sebf, Abia State University, Uturu.
+    Senate Representative At The Students Welfare Board, Absu, 1996 -1997.
+    Smat Representative On The Board, School Of Agriculture And Agricultural Technology, Federal University Of Technology Futo, Since The 2000/2001 Session.
+    Chairman, Committee For The Development Of Curriculum For The Creation Of Department Of Financial Management Technology, Smat, Federal University Of Technology, Futo, 2001.
+    Coordinator, Postgraduate Programme Of The School Of Postgraduate Studies (Department Of Project Management Technology), Federal University Of Technology, Owerri.
+    Head Of Department Of Project Management Technology, Futo, 2004 – 2005.
+    Futo Senate Representative At The Fes 2004 -2005
+    Team Leader In General Certificate Of Education Examinations, West African Examinations Council (Waec). (1995 – 1998)
+    National Board Member, Board Of Management Of Education In Health Planning And Management, 1996.
+    Union Bank Of Nigeria Plc, Guest Lecturer At The Association Of Senior Staff Of Banks, Insurance And Financial Institutions Second Triennial Delegates Conference Held At Imo Concorde Hotels, Owerri, 9 -12 May, 1996. Paper Presented: Strategies For Sustained Growth In The Nigerian Banking Industry In The Emerging Decades.
+    Member Committee For The Launching Of Obohia Electrification Project, 1989.
+    Member, Editorial Review Board Of The Journal Of Business And Social Sciences. Imo State University, Owerri.
+    National Centre For Economic Management And Administration (Ncema), Ibadan, Guest Lecturer And Resource Person At The Ncema Organized Training Programme On Planning And Management Of Infrastructure And Utilities: “Servicing The Engine Of Development”, Held At The Modotel Hotels Limited, Owerri – Nigeria July 3 – 4, 2000. Paper Presented: “The Peculiarities Of The Nigerian Economy”.
+    The Nigeria Institute Of Management, Nim, Lagos, Guest Lecturer And Resource Person, At The Nim Organized Mandatory Continuing Professional Education Programme Held At The Nim (Rechem House), Aba On 27th February, 2001. Paper Presented: “The Peculiarities Of The Nigeria Economy”.
+    External Examiner In Economics: Management And Policy, University Of Port Harcourt 1999 - 2000.
+
+Publications
+
+    Chigbuh, Emmanuel E. 1991. “The Role Of Rural Banking In Nigeria’s Development”. In. Nigeria Financial Review. (Lagos: Infodata), Vol. 4 No. 2, Pp. 44 -54.
+    Chigbuh, Emmanuel Ezeji. 1992. “The Manufacturing And Construction Sectors And The Nigerian Economy”. In Umebali, E. E. And E. M. Madu, (Eds.) Nigerian Economy: Issues And Trends. (Enugu: Acafor Books) Pp. 64-81.
+    Chigbuh, E.E. 1992. “The Impact Of Sap On The Manufacturing And Construction Sectors Of The Nigerian Economy”, In Anyanwu, Aham (Ed.). Nigerian Structural Adjustment Programme A Multi-Sectorial Analysis. (Enugu: Abic Books And Equipment Ltd). Pp. 142-148.
+    Chigbuh, Emmanuel Ezeji. 1993. “Monetary And Fiscal Policies And The Quest For Strategies For Developing The Nigerian Economy In The 1990s And Beyond”. In Anyanwu, Aham, And B.E.B. Nwoke, (Eds.) Development Stategies For Nigeria. (Okigwe: Avan Global Publications). Pp. 101-110.
+    Chigbuh, Emmanuel Ezeji. 1993. “Economic Planning And Nigeria’s Quest For Development: Problems And Prospects” In Anyanwu, Aham And B.E.B. Nwoke. (Eds.) Development Stategies For Nigeria. (Okigwe: Avan Global Publications) Pp.119-123.
+    Chigbuh, E. Ezeji, 1993. “Price Negotiations In Marketing” In Anyanwu, Aham And A. I. Okafor (Eds.). The Practice Of Marketing. (Owerri: Klet-Ken Publishers). Pp. 89-97.
+    Chigbuh, E.E. “Perspectives And Trends In The Nigerian Building And Construction Industry”. In Okonkwo, I.C. ( Ed.) Industrial Organisation In Nigeria: Theory And Practice. (Owerri, Totan Publishers Ltd.) Pp. 173-185.
+    Chigbuh, E. Ezeji, 1996. “Functions And Role Of The Central Bank Of Nigeria In Economic Development “. In Onuoha, B. Chima, And C.E. Udensi (Eds.). Governament And Business Relations ; The Nigerian Perspectives. (Enugu: Precision Printers And Publishers). Pp.155-166.
+    Chigbuh, E. Ezeji. 1996. “The Role Of The Public Sector In Development Banking”. In Onuoha, B. Chima And C.E. Udensi (Eds.), Government And Business Relations; The Nigerian Perspective. (Enugu: Precision Printers And Publishers). Pp. 207-214.
+    Chigbuh, E. Ezeji. 1993. “Creating The Enabling Economic Environment For Accelerated Growth Through Effective Inflation Control In Nigeria: Some Policy Imperatives”. In Anyanwu, Aham. (Ed.) Enabling Environment For Growth. (Benin: Barloz Publishers, Pp. 295-298.
+    Chigbuh, E. Ezeji And Alexander Ekenwa Chigbu. 1994. “Creating The Enabling Health Environment For Accelerated Economic Growth In Nigeria: Problems And Possibilities”. (Benin: Barloz Publishers. Pp. 299-304.
+    Chigbuh, E. Ezeji 1997. “Financial Markets”. In Onuoha, B. Chima (Ed.) Foundations Of Finance And Financial Management. (Port Harcourt: Educational Books And Investments Ltd), Pp. 160-176.
+    Chigbuh, Emmanuel. 1992. “The Banking System And The Nigerian Economy”. In Umebali E.E. (Ed.) Management Of Small-Scale Agribusiness. (In Press).
+    Chigbuh, Emmanuel. Ezeji. 1993 “Problems And Prospects Of Plan Implementation In Nigeria”. In Onwumere, J.U.J. And E.E. Chibgu (Eds. Development Economics And Planning Principles And Practice. (In Press).
+    Chigbuh, Emmanuel Ezeji. 1993. “Finance For Development”. In Onwumere, J.U.J. And E.E. Chigbuh (Eds.). Development Economics And Planning: Principles And Practice.
+    Chigbuh, E. Ezeji 1995. “Problems Of Monetary Policy In Nigeria: Some Policy Imperatives For Progress”. In Isu, Hamilton O. (Ed.) Readings In Business And Finance. (In Press).
+    Chgbuh, Emmanuel E. 1992. “Monetary And Fiscal Policies Of The Federal Government Nigeria: Some Implications For Local Government Of Financing In The 1990s And Beyond”. In Isu H.O. (Ed.). Financing Local Governments In Nigeria For Sustainable Economic Growth In The 1990s. (In Press.)
+    Chigbu, Emmanuel E. 1991. “The Role Of Rural Banking In Nigeria’s Development”. In Nigerian Financial Review. (Lagos: Infodata). Vol. 4, No. 2. Pp. 44 – 54.
+    Chigbu, E. Ezeji 2006. “The Demand For Money Function In A Deregulated Developing Economy: The Case Of Nigeria”. In Nigeria Journal Of Economic And Financial Research, Abia State University Uturu, (Abakiliki: Willy Rose &amp; Appleseed Publishing Coy.) Vol. 1, No. 1. (March). Pp 1 -15.
+    Chigbu, E. Ezeji And Ozurumba, B. A., 2006, An Assessment Of The Impact Of Externl Debt On The Growth Of The Nigeria Economy”. In Journal Of Business And Social Sciences, Department Of Marketing, Imo State University, Owerri. (Owerri: Alvan Global Publications,). Vol. 2. No 2. (August). Pp. 94 – 104.
+    Chigbu, E. Ezeji. 2007. “ Evaluation Of The Determinants Of Commercial Bank’s Interest Rates Spread In A Liberalised, Consolidating, Developing Financial System: The Nigerian Experience (1986 – 2005)” In Nigerian Journal Of Economic And Financial Research, Abia State University, Uturu. (Abakiliki: Willy Rose &amp; Appleseed Publishing Coy.). Vol. 1. No. 2. (January), Pp, 61 – 84.
+
+Working Experience
+
+    Assistant Lecturer Department Of Economics, Imo State University, Etiti October 1984–1985
+    Lecturer II, School Of Economics Banking And Finance, Imo State University, Etiti-Okigwe 1985 – 1990
+    Lecturer I, School Of Economics Banking And Finance Imo State University, Okigwe 1990 – 1991, Abia State University, Uturu 1992 – 1993
+    Senior Lecturer In Economics, Abia State University, Uturu Nigeria 1994 – 1998
+    Senior Lecturer In Economics School Of Management Technology, Federal University Of Technology Owerri
+    Co-Ordinator And Head School Of Economics, Banking And Finance, Abia State University Uturu (Absu)
+    Courses Taught At Both The Undergraduate And Postgraduate Levels Include Economic Theory And Policy: Money And Banking, Public Finance, Quantitative Methods, Financial Markets, Research Methods, Financial Economics, Planning, Project Evaluation And Analysis. Postgraduate Students Advised And Supervised Include Those Of Mba (Banking And Finance), M.Sc. (Economics) And Ph.D. (Financial Management Technology)
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    B.S., 1975, Economics, University of Nigeria, Nsukka
+    M.S.,1997, Money &amp; Banking, Federal Uni of Tech.,Owerri
+    Ph.D., 2008, Financial Mgt, Federal University of Tech,.Owerri
+
+Membership of professional bodies
+
+    Member of the SMAT Board, PG Board, Deptal Board
+    Member SMAT Quality Assurance &amp; Control Committee
+    Member Nigerian Institute of Management
+    Member Nigeria Economic Society
+    African Women in Science and Engineering (AWSE)
+    Member International Academy of Business and Behavioural Sciences
+    Member Ajalli Women Welfare Association, Ajalli.
+    Member St Andrew’s Anglican Church, Mother’s Union.
+    Member Lady of the Knight of St. Christopher
+    Member Christian Fellowship of St. Andrew’s Church.
+    Member Club Mater Medic
+    Member Queen’s School, Enugu Old Girls Association
+
+Publications
+
+    Nwachukwu, C.C., Ibeawuchi,C and Okoli, M.N. ‘’Project Management Indexes ; A Constraint to Project Implementation Success in the Construction Sector of a Developing Economy’’, EUROJOURNAL, Vol.43 No. 3, 2010.
+    OKOLI, M.N. and Akujuobi, A.B.C. ‘’Determinants of Capital Flight; The case of Nigeria.’’ International Journal of Development and Management Review, (INJODEMAR), 2009.
+    Akujuobi, A.B.C.and Okoli,M.N. ‘’Capital Flight Determinants and Economic Development;The Nigerian Experience’’, Economic and Business Review; African Journal of Economics of the Department of Economics, Ebonyi State University, Abakaliki ,2009.
+    Okoli, M.N. ‘’Predicting the Influence of Capital Market on the Industrial Development of Nigeria’’. Nigerian Journal of Education, Planning and Finance (NJEPAF); A Publication of De-Caritas Centre for Studies on Human Development in Africa (DECSHDA), Rivers State University of Education, Port-Harcourt,2009.
+    Okoli, M. N. ‘’Capital Flight and Economic Development; Evidence from Nigeria’’, African Journal of Social Issues (AJSS) 2009.
+    Okoli, M.N. ‘’External Debt and The Nigerian Economy’’, Journal of Industrial Business &amp; Economic Research; Publication of Markowirz Centre for Research &amp; Development in Association with the Department of Economics, University of Port- Harcourt, Rivers State ,2008.
+    Nwachukwu, C.C.and Okoli, M.N. ‘’The Imperative for Maintenance Culture in the Economic Development of Nigeria as a Third World Country’’, Journal of Industrial Business &amp; Economic Research, The Jiber; Vol. 11 No 2, Jan – June, 2007.
+    Okoli, M.N.’’The Role of Commercial Banks in Project Financing (A Case Study of Selected Banks)’’,Journal of Industrial Business &amp; Economic Research; A Publication of Markowirz Centre for Research and Development in Association with The Department of Economics, University of Port- Harcourt, Rivers State, 2005.
+
+Working Experience
+
+    Banking, Central Bank of Nigeria, Ilorin.1983-1984
+    Banking, Progress Bank of Nigeria, PLC Owerri.1983-1997
+    Course Advisor 2001-Date
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+
+Monetary Policy is a tool that the Central bank uses to influence the supply and availability of money in an economy in an attempt to achieve the overall macroeconomic objectives. Dr. Ozurumba’s research is concerned with the evaluationof the effectiveness of monetary policy in stimulating aggregate demand and growth of the real gross domestic product in ECOWAS region.
+
+The primary goal of deficit budgeting is to maintain government expenditures at a level that would be sufficient to ensure the attainment of the broad macro-economic objectives of fiscal policy. The macroeconomic objectives are usually price stability, real economic growth, full employment and balance of payments equilibrium while the main instruments of fiscal policy are taxation and total expenditure. When total expenditures exceed tax revenues, a budgetary gap or deficit exists and has to be financed.In his recent researches, Dr. Ozurumba examined the mode of financing the budget deficit and its implications for growth in monetary aggregates and macro-economic performance.
+
+Private capital flows have had pervasive effects on the Nigerian economy in the recent times. The acceleration of the process of financial sector reform and the liberalization of exchange controls in Nigerians were the most decisive factors. The concerted programmes of liberalization and reform were a decisive factor in stimulating new private capital inflows. The reforms also, however, heightened the macroeconomic impact of private capital movements. By freeing key prices in the economics most importantly the exchange rate and interest rates – the reforms created a set of transmission mechanisms through which changes in cross-border capital flows had important real and monetary effects on the economy. The author x-rays the above implications on growth of the Nigerian economy vis-à-vis other economies of the ECOWAS sub-region.
+Academic and Professional Qualification
+
+    B.Sc., 1997 Economics, Abia State University , Uturu
+    M.Sc., 2004 Financial Management Technology , FUTO, Owerri.
+    M. Sc.,2008 Economics,Imo State University, Owerri
+    Ph.D., 2008Financial Management Technology, FUTO, Owerri.
+
+Membership of professional bodies
+
+    Member, FUTO Senate Committee on Exams 2006 to date
+    Member, SMAT Seminar and Conference Committee 2011
+    Member, The Nigerian Economic Society (NES) 2008 to date
+    Member, International Academy of Business and Behavioural Sciences (IABBS) USA 2009 to date
+    Member, Microfinance Training Service Providers of Nigeria (MTSPN) 2009 to date
+    Member, Internet Economists (INOMICS) 2008to date
+    Faculty Adviser, Association of Management Students (AMTS) 2011
+
+Publications
+
+    Ozurumba, B.A (2005): “The External debt Crises Causes and Consequences”, Debt Burden and Development in Africa; Problems and Prospects (Okere T-I. edit) Assumpta Press, Owerri.
+    Ozurumba, B.A and Chigbu E.E. (2006): “An Assessment of the Impact of External Debt on the Growth of the Nigerian Economy”, Journal of Business and Social Science, Vol 2, Owerri, Department of Marketing, Imo State University Owerri&amp;Avan Publication Owerri.
+    Ozurumba, B.A (2007); “Corporate Collapse and Bank Failures in Nigeria” A case of Collusive Corruption, International Journal of Development and Management Review Vol 1. No.1, Owerri, Development and Management Study Group.
+    Ozurumba, B.A and Idi, R.E. (2008); Energy Crisis in Nigeria; A Case Study of the Niger Delta Region. The Nigerian Journal of Energy and Environmental Economics, Awka, Department of Economics, NnamdiAzikiweUnivesityAwka.
+    Ozurumba, B.A (2008); “Commercial Bank Credit on Agricultural Development in Nigeria; An Evaluation Issues on Development – A Multidisciplinary International Journal on Sustainable Development, South Africa, International Center for Constructive Research(ICCR)
+    Ozurumba, B.A (2009) “Strategies for Bank Supervision for Effective Bank Management in Nigeria, African Journal of Economics and Financial Research, De-Caritas Center for Studies on Human Development in Africa Port Harcourt.
+    Ozurumba, B.A (2009); Impact of Public Sector Deficit on Private Sector Investment in Nigeria, De- Caritas Journal of Management and Social Science. De- Caritas Center for Studies of Human Development in Africa, Port Harcourt.
+    Ozurumba, B.A &amp;Chigbu E.E (2009) Impact of public Sector Deficits on Economic Development of Nigeria, African Journal Professional Research in Human Development, De- Caritas Center of Studies on Human Development in Africa, Port Harcourt.
+    Ozurumba, B.A &amp;Chigbu E.E (2011) Fiscal Deficits And Inflation In Nigeria: The Causality Approach, Journal of Business and Accounting, USA.
+
+Working Experience
+
+Economics, Banking and Finance
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+
+History of operations research, phases of an operations research project. Operations research and its systems orientation. Characteristics of operations research. Operations research models; fundamentals of linear programming, matrix application in organization. Linear programming model (graphical). Sensitivity analysis Applications, some variants of linear programming.
+
+Transportation model and the assignment model, critical path method (CPM) and project evaluation review technique (PERT). Inventory control model: Input/output analysis and factor analysis.
+
+Measuring, scope and nature of econometrics, two – variable linear model, least-squares estimates, Analysis of variance in regression. Models; metric Algebra and econometrics. The general linear model, significance tests and confidence intervals, doming variables, covariance analysis, generalized least squares, prediction, Heteroscedastic disturbances, Auto correlation, stochastic regressors, instrumental variables, and errors invariables, lagged variables, multivariate methods, simultaneous equation methods; three-stage least squares and full information maximum likelihood prediction and simultaneous confidence intervals; Econometrics and computer application to the Nigeria economy.
+Academic and Professional Qualification
+
+    B.Sc. (Hons.) Economics (Second Class) 1995
+    M.Sc. (Econs) Econometrics and Mathematical Economics 2004
+    Doctor of Philosophy (Ph.D) Economics/ Econometrics (In view)
+
+Honours
+
+    Federal University of Technology, Owerri (FUTO) Fellowship Award 2010 /2011
+    Kano State (NYSC) Honors Award, 1996
+
+Publications
+
+    Nwaimo C.E. (2009) Applied Principles of Economics, Owerri: Supreme publishers.
+    Nwaimo C.E. (2007) Basic Principles of Economics, Owerri: Supreme publishers.
+    Nwaimo C.E. et al. eds (2007) Understanding Business method, Owerri: Human Resources Development Centre.
+    Nwaimo C.E. (2007), CBN Core Values/Vision and Mission: Basic management Course for Office Assistants, juniors and Clerical Assistants of Central Bank of Nigeria: Owerri, Rapour Hotels Ltd. November 12th - .16th
+    Nwaimo C.E (2007), Computer Appreciation and Data Management: Basic management Course for office Assistants, Juniors and Clerical Assistants of Central Bank of Nigeria: Owerri, Rapour Hotels Ltd., November 12th - 16th.
+    Strategic management: senior management course for Directors and Assistant Directors of CBN, Rapour Hotels Limited. June 2011
+
+Working Experience
+
+    Asst. Lecturer in Federal University of Technology, Owerri. Dept. of Mgt. Tech. (Currently)
+    Part Time Lecturer in Imo State University Owerri: Department of Economics, 2006-2009
+    NYSC Lecturer in Kano State Polytechnic: Social Sciences Unit, 1995-1996
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Working Experience
+
+National Youth Service Corpse (N.Y.S.C) September 07, 2003 – September 08, 2004 at Misau, Local Government Secretariat Bauchi State, Nigeria
+
+    Position : Corpse Member
+    Job description: Teaching chemistry to Senior Secondary School Students (S.S.3) at Misau local Governmenet Secretariat, Misau Bauchi State Nigeria.
+
+February 2011- Date at Federal University of Science and Technology (FUTO) Imo state Nigeria
+
+    Position: Assistant Lecturer
+    Job description: Lecturing and research work in the department of Financial Management Technology
+
+September 2006- March 2010 at Pan Nordic Logistics AB through an agent (Quickmatch Bemanning AB)
+
+    Position: IT data entry operative, terminal hub
+    Job Descripition: Using IT in data processing of input (that is, Scanning of parcels at Logistics HUB).
+    Contact Person: Annsophie Mandorsson (Terminal Operations Manager)
+    Email: annsophie.mandorsson@bring.com
+
+September 2006 – June 2008 at Proffice AB, Swedish Company.
+
+    Position : IT data entry operative, terminal hub.
+    Job Description: Using IT in data processing of input (that is, Scanning of parcels at Logistics HUB).
+    Contact Person: Human Resource Manager: Samela Logavija
+    Email: Samela.logavija@proffice.se
+    Phone number: +4636-301565
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    M.Sc Financial Management Technology.
+    B.Sc Accountancy
+    OND Accountancy
+
+Working Experience
+
+    Graduate Assistant, Financial Management Dept., FUTO, 2011
+    Scholars Academy, Benin City, Edo State, 2009
+    Accounts Clerk, Federal Polytechnic Nekede, Owerri, 2003
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    B.Sc., 2008, Management, University of Nigeria Nsukka
+    M.B.A., 2011, Management, University of Nigeria Nsukka
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    M.Sc 2011 Financial Management Technology. In view,
+    B.Sc 2004 Business Administration
+
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    M.Sc Financial Management Tech. In view
+    B.Sc Marketing, 2003
+
+Working Experience
+
+    Financial Management Department FUTO, 2009- till date
+    Domino International Sec. Sch. Owerri, 2005-2006
+"</item>
+        <item>"
+<b>Biography\n\n</b>
+Academic and Professional Qualification
+
+    B.Tech(1stClass honors) Financial Management Technology, Federal University of Technology Owerri (2009)
+    OND Electrical &amp; Electronics Engineering , Federal Polytechnic Nekede Owerri (2003)
+
+Honours
+
+    Best Graduating Student in School of Management Technology(SMAT) (2008/2009 Session)
+
+Working Experience
+
+    Graduate Assistant. FUTO, (Sept 2011 –Date)
+    Graduate Trainee Summit Finance Company Limited Lagos (June 2010-August 2011)
+"</item>
+    </string-array>
+
+
+    <array name="places_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+        <item>@drawable/k</item>
+        <item>@drawable/l</item>
+        <item>@drawable/m</item>
+        <item>@drawable/n</item>
+        <item>@drawable/o</item>
+    </array>
+
+</resources>

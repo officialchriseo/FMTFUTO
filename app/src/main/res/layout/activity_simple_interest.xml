@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B6ECD"
+    tools:context="ng.com.blogspot.httpofficialceo.fmtmobile.SimpleInterestActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:textColorHint="#fff"
+                android:backgroundTint="#fff"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/principal_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:textColor="#fff"
+                android:hint="Enter amount"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:inputType="number" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:textColorHint="#fff"
+                android:backgroundTint="#fff"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/rate_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter rate"
+                android:maxLength="3"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:inputType="number" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:textColorHint="#fff"
+                android:backgroundTint="#fff"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/duration_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:maxLength="3"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:backgroundTint="#fff"
+                android:hint="Enter duration"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:inputType="number" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+        <EditText
+            android:id="@+id/result_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ccc5c5"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/advice_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="21sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="#E91E63"
+                android:textColor="#fff"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:text="Reset"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/calculate_button"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="#E91E63"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="Calculate"
+                android:textAllCaps="true"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="@dimen/md_keylines"
+        android:layout_marginRight="@dimen/md_keylines"
+        android:layout_marginEnd="@dimen/md_keylines"
+        android:backgroundTint="#E91E63"
+        android:src="@drawable/ic_share_white_24dp"
+        android:tint="@color/white"/>
+</android.support.design.widget.CoordinatorLayout>

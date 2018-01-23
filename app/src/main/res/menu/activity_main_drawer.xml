@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/year_one"
+            android:icon="@drawable/level1"
+            android:title="100 Level" />
+        <item
+            android:id="@+id/year_two"
+            android:icon="@drawable/level2"
+            android:title="200 Level" />
+        <item
+            android:id="@+id/year_three"
+            android:icon="@drawable/level3"
+            android:title="300 Level" />
+        <item
+            android:id="@+id/year_four"
+            android:icon="@drawable/level4"
+            android:title="400 Level" />
+        <item
+            android:id="@+id/year_five"
+            android:icon="@drawable/level5"
+            android:title="500 Level" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/aprreciation_text"
+                android:icon="@drawable/appreciation"
+                android:title="Appreciation" />
+            <item
+                android:id="@+id/about_department"
+                android:icon="@drawable/aboutme"
+                android:title="About Department" />
+        </menu>
+    </item>
+
+    <item android:title="Navigation">
+
+        <menu>
+            <item
+                android:id="@+id/map_icon"
+                android:icon="@drawable/local"
+                android:title="Location"/>
+
+        </menu>
+
+    </item>
+
+</menu>
