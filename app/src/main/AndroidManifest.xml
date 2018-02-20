@@ -27,16 +27,20 @@
             android:configChanges="keyboardHidden|orientation|screenSize" />
         <activity
             android:name=".CompoundInterestActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize" />
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".IntroductionActivity" />
         <activity
             android:name=".AboutDepartment"
             android:label="@string/title_activity_about_department"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".LecturerDetails" />
-        <activity android:name=".YearOneActivity">
-
-        </activity>
+        <activity
+            android:name=".YearOneActivity"
+            android:label="@string/year_one"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".DetailsActivity"></activity>
     </application>
 
 </manifest>

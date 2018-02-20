@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3B6ECD"
-    tools:context="ng.com.blogspot.httpofficialceo.fmtmobile.SimpleInterestActivity">
+    tools:context="ng.com.blogspot.httpofficialceo.fmtfuto.SimpleInterestActivity">
 
 
     <ScrollView
@@ -22,7 +21,7 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:textColorHint="#fff"
+                android:textColorHint="#5d8118"
                 android:backgroundTint="#fff"
                 android:layout_height="wrap_content">
 
@@ -31,7 +30,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:maxLength="10"
-                android:textColor="#fff"
                 android:hint="Enter amount"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
@@ -42,7 +40,7 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:textColorHint="#fff"
+                android:textColorHint="#5d8118"
                 android:backgroundTint="#fff"
                 android:layout_height="wrap_content">
 
@@ -53,7 +51,6 @@
                 android:hint="Enter rate"
                 android:maxLength="3"
                 android:textColor="#fff"
-                android:textColorHint="#fff"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="15dp"
                 android:inputType="number" />
@@ -66,7 +63,7 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:textColorHint="#fff"
+                android:textColorHint="#5d8118"
                 android:backgroundTint="#fff"
                 android:layout_height="wrap_content">
 
@@ -75,7 +72,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:maxLength="3"
-                android:textColor="#fff"
                 android:textColorHint="#fff"
                 android:backgroundTint="#fff"
                 android:hint="Enter duration"
@@ -117,7 +113,7 @@
                 android:layout_width="150dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:background="#E91E63"
+                android:background="#5d8118"
                 android:textColor="#fff"
                 android:layout_marginBottom="20dp"
                 android:layout_marginRight="10dp"
@@ -129,7 +125,7 @@
                 android:id="@+id/calculate_button"
                 android:layout_width="150dp"
                 android:layout_height="60dp"
-                android:background="#E91E63"
+                android:background="#5d8118"
                 android:textColor="#fff"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
@@ -153,7 +149,8 @@
         android:layout_marginBottom="@dimen/md_keylines"
         android:layout_marginRight="@dimen/md_keylines"
         android:layout_marginEnd="@dimen/md_keylines"
-        android:backgroundTint="#E91E63"
+        android:backgroundTint="#5d8118"
+        android:elevation="10dp"
         android:src="@drawable/ic_share_white_24dp"
         android:tint="@color/white"/>
 </android.support.design.widget.CoordinatorLayout>

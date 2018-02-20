@@ -3,6 +3,7 @@ package ng.com.blogspot.httpofficialceo.fmtfuto;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.view.Gravity;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -104,6 +105,8 @@ public class MainActivity extends AppCompatActivity
                         myToast.show();
                         break;
                     case 4:
+                        myIntent = new Intent(MainActivity.this, GalleryActivity.class);
+                        startActivity(myIntent);
                         myToast =  Toast.makeText(MainActivity.this, "TVM clicked", Toast.LENGTH_SHORT);
                         myToast.show();
                         break;
@@ -154,9 +157,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
@@ -169,33 +170,61 @@ public class MainActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
+       // int id = item.getItemId();
 
-        if (id == R.id.year_one) {
-            // Handle the camera action
-        } else if (id == R.id.year_two) {
+        switch (item.getItemId()){
 
-        } else if (id == R.id.year_three) {
+            case R.id.year_one:
+                myIntent = new Intent(MainActivity.this, YearOneActivity.class);
+                startActivity(myIntent);
+                break;
 
-        } else if (id == R.id.year_four) {
+            case R.id.year_two:
+                myIntent = new Intent(MainActivity.this, YearOneActivity.class);
+                startActivity(myIntent);
+                break;
 
-        } else if (id == R.id.year_five) {
+            case R.id.map_icon:
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+                break;
 
-        } else if (id == R.id.aprreciation_text) {
-
-        }else if (id == R.id.map_icon){
-            Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse(url));
-            startActivity(intent);
-
-        }else if (id == R.id.about_department){
-
-            myIntent = new Intent(MainActivity.this, AboutDepartment.class);
-            startActivity(myIntent);
+            case R.id.about_department:
+                myIntent = new Intent(MainActivity.this, AboutDepartment.class);
+                startActivity(myIntent);
+                break;
 
         }
+
+//        if (id == R.id.year_one) {
+//
+//            myIntent = new Intent(MainActivity.this, YearOneActivity.class);
+//            startActivity(myIntent);
+//
+//        } else if (id == R.id.year_two) {
+//
+//        } else if (id == R.id.year_three) {
+//
+//        } else if (id == R.id.year_four) {
+//
+//        } else if (id == R.id.year_five) {
+//
+//        } else if (id == R.id.aprreciation_text) {
+//
+//        }else if (id == R.id.map_icon){
+//            Intent intent = new Intent(Intent.ACTION_VIEW);
+//            intent.setData(Uri.parse(url));
+//            startActivity(intent);
+//
+//        }else if (id == R.id.about_department){
+//
+//            myIntent = new Intent(MainActivity.this, AboutDepartment.class);
+//            startActivity(myIntent);
+//
+//        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -211,6 +240,7 @@ public class MainActivity extends AppCompatActivity
 //
 //
 //    }
+
 
 
 }

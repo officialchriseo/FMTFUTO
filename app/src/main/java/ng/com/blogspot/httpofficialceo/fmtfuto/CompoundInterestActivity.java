@@ -29,7 +29,7 @@ public class CompoundInterestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compound_interest);
-        this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         compPrincipalAmount = (EditText) findViewById(R.id.c_principal_et);
         rate = (EditText) findViewById(R.id.c_rate_et);
         spinner = (Spinner) findViewById(R.id.compound_spinner);

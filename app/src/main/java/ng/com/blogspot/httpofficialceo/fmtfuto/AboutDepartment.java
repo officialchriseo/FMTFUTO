@@ -1,9 +1,6 @@
 package ng.com.blogspot.httpofficialceo.fmtfuto;
 
-import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -31,6 +28,7 @@ public class AboutDepartment extends AppCompatActivity {
         setupViewPager(viewPager);
         TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
 
@@ -44,7 +42,7 @@ public class AboutDepartment extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
         adapter.addFragment(new IntroductionFragment(), "Introduction");
-        adapter.addFragment(new StaffFragment(), "Staff");
+        adapter.addFragment(new StaffFragment(), "Staff Profile");
         viewPager.setAdapter(adapter);
     }
 
