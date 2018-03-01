@@ -39,8 +39,12 @@
             android:name=".YearOneActivity"
             android:label="@string/year_one"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".GalleryActivity" />
-        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".GalleryActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/fmt_gallery"/>
+        <activity android:name=".DetailsActivity">
+
+        </activity>
     </application>
 
 </manifest>

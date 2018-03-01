@@ -5,7 +5,6 @@ import android.animation.ObjectAnimator;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.DrawableRes;
@@ -39,30 +38,30 @@ import ng.com.blogspot.httpofficialceo.fmtfuto.utils.DecodeBitmapTask;
 public class GalleryActivity extends AppCompatActivity {
 
     private final int[][] dotCoords = new int[5][2];
-    private final int[] pics = {R.drawable.a_staff, R.drawable.b_staff, R.drawable.c_staff, R.drawable.d_staff, R.drawable.e};
-    private final int[] maps = {R.drawable.g, R.drawable.f, R.drawable.a, R.drawable.a, R.drawable.c};
-    private final int[] descriptions = {R.string.text1, R.string.text2, R.string.text3, R.string.text4, R.string.text5};
-    private final String[] countries = {"PARIS", "SEOUL", "LONDON", "BEIJING", "THIRA"};
-    private final String[] places = {"The Louvre", "Gwanghwamun", "Tower Bridge", "Temple of Heaven", "Aegeana Sea"};
-    private final String[] temperatures = {"21°C", "19°C", "17°C", "23°C", "20°C"};
-    private final String[] times = {"Aug 1 - Dec 15    7:00-18:00", "Sep 5 - Nov 10    8:00-16:00", "Mar 8 - May 21    7:00-18:00"};
+    private final int[] pics = {R.drawable.g, R.drawable.f, R.drawable.a, R.drawable.a, R.drawable.c, R.drawable.a};
+    private final int[] maps = {R.drawable.g, R.drawable.f, R.drawable.a, R.drawable.a, R.drawable.c, R.drawable.a};
+    private final int[] descriptions = {R.string.text1, R.string.text2, R.string.text3, R.string.text4, R.string.text5, R.string.text3};
+    private final String[] countries = {"CHRISTIAN", "CALIS", "SOMTO", "VICTOR", "CONFIEDENCE", "CHIDIMMA"};
+    private final String[] places = {"official_ceo", "kalix", "somie blues", "akas_baba", "confie", "dimma"};
+    private final String[] temperatures = {"official_ceo", "kalix", "somie blues", "akas_baba", "confie", "dimma"};
+    private final String[] times = {"Aug 1 - Dec 15    7:00-18:00", "Sep 5 - Nov 10    8:00-16:00", "Mar 8 - May 21    7:00-18:00", "Mar 8 - May 21    7:00-18:00", "Mar 8 - May 21    7:00-18:00", "Mar 8 - May 21    7:00-18:00"};
 
-    private final SliderAdapter sliderAdapter = new SliderAdapter(pics, 20, new OnCardClickListener());
+    private final SliderAdapter sliderAdapter = new SliderAdapter(pics, 125, new OnCardClickListener());
 
     private CardSliderLayoutManager layoutManger;
     private RecyclerView recyclerView;
     private ImageSwitcher mapSwitcher;
-    private TextSwitcher temperatureSwitcher;
+    private TextSwitcher nickNameTV;
     private TextSwitcher placeSwitcher;
     private TextSwitcher clockSwitcher;
     private TextSwitcher descriptionsSwitcher;
     private View greenDot;
 
-    private TextView country1TextView;
-    private TextView country2TextView;
-    private int countryOffset1;
-    private int countryOffset2;
-    private long countryAnimDuration;
+    private TextView nameTextView1;
+    private TextView nameTextView2;
+    private int nameOffset1;
+    private int nameOffset2;
+    private long nameAnimDuration;
     private int currentPosition;
 
     private DecodeBitmapTask decodeMapBitmapTask;
@@ -72,6 +71,7 @@ public class GalleryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
+        this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         initRecyclerView();
         initCountryText();
@@ -107,9 +107,9 @@ public class GalleryActivity extends AppCompatActivity {
     }
 
     private void initSwitchers() {
-        temperatureSwitcher = (TextSwitcher) findViewById(R.id.ts_temperature);
-        temperatureSwitcher.setFactory(new TextViewFactory(R.style.TemperatureTextView, true));
-        temperatureSwitcher.setCurrentText(temperatures[0]);
+        nickNameTV = (TextSwitcher) findViewById(R.id.ts_temperature);
+        nickNameTV.setFactory(new TextViewFactory(R.style.TemperatureTextView, true));
+        nickNameTV.setCurrentText(temperatures[0]);
 
         placeSwitcher = (TextSwitcher) findViewById(R.id.ts_place);
         placeSwitcher.setFactory(new TextViewFactory(R.style.PlaceTextView, false));
@@ -141,19 +141,19 @@ public class GalleryActivity extends AppCompatActivity {
     }
 
     private void initCountryText() {
-        countryAnimDuration = getResources().getInteger(R.integer.labels_animation_duration);
-        countryOffset1 = getResources().getDimensionPixelSize(R.dimen.left_offset);
-        countryOffset2 = getResources().getDimensionPixelSize(R.dimen.card_width);
-        country1TextView = (TextView) findViewById(R.id.tv_country_1);
-        country2TextView = (TextView) findViewById(R.id.tv_country_2);
+        nameAnimDuration = getResources().getInteger(R.integer.labels_animation_duration);
+        nameOffset1 = getResources().getDimensionPixelSize(R.dimen.left_offset);
+        nameOffset2 = getResources().getDimensionPixelSize(R.dimen.card_width);
+        nameTextView1 = (TextView) findViewById(R.id.tv_country_1);
+        nameTextView2 = (TextView) findViewById(R.id.tv_country_2);
 
-        country1TextView.setX(countryOffset1);
-        country2TextView.setX(countryOffset2);
-        country1TextView.setText(countries[0]);
-        country2TextView.setAlpha(0f);
+        nameTextView1.setX(nameOffset1);
+        nameTextView2.setX(nameOffset2);
+        nameTextView1.setText(countries[0]);
+        nameTextView2.setAlpha(0f);
 
-//        country1TextView.setTypeface(Typeface.createFromAsset(getAssets(), "open-sans-extrabold.ttf"));
-//        country2TextView.setTypeface(Typeface.createFromAsset(getAssets(), "open-sans-extrabold.ttf"));
+//        nameTextView1.setTypeface(Typeface.createFromAsset(getAssets(), "open-sans-extrabold.ttf"));
+//        nameTextView2.setTypeface(Typeface.createFromAsset(getAssets(), "open-sans-extrabold.ttf"));
     }
 
     private void initGreenDot() {
@@ -186,20 +186,20 @@ public class GalleryActivity extends AppCompatActivity {
     private void setCountryText(String text, boolean left2right) {
         final TextView invisibleText;
         final TextView visibleText;
-        if (country1TextView.getAlpha() > country2TextView.getAlpha()) {
-            visibleText = country1TextView;
-            invisibleText = country2TextView;
+        if (nameTextView1.getAlpha() > nameTextView2.getAlpha()) {
+            visibleText = nameTextView1;
+            invisibleText = nameTextView2;
         } else {
-            visibleText = country2TextView;
-            invisibleText = country1TextView;
+            visibleText = nameTextView2;
+            invisibleText = nameTextView1;
         }
 
         final int vOffset;
         if (left2right) {
             invisibleText.setX(0);
-            vOffset = countryOffset2;
+            vOffset = nameOffset2;
         } else {
-            invisibleText.setX(countryOffset2);
+            invisibleText.setX(nameOffset2);
             vOffset = 0;
         }
 
@@ -207,12 +207,12 @@ public class GalleryActivity extends AppCompatActivity {
 
         final ObjectAnimator iAlpha = ObjectAnimator.ofFloat(invisibleText, "alpha", 1f);
         final ObjectAnimator vAlpha = ObjectAnimator.ofFloat(visibleText, "alpha", 0f);
-        final ObjectAnimator iX = ObjectAnimator.ofFloat(invisibleText, "x", countryOffset1);
+        final ObjectAnimator iX = ObjectAnimator.ofFloat(invisibleText, "x", nameOffset1);
         final ObjectAnimator vX = ObjectAnimator.ofFloat(visibleText, "x", vOffset);
 
         final AnimatorSet animSet = new AnimatorSet();
         animSet.playTogether(iAlpha, vAlpha, iX, vX);
-        animSet.setDuration(countryAnimDuration);
+        animSet.setDuration(nameAnimDuration);
         animSet.start();
     }
 
@@ -240,9 +240,9 @@ public class GalleryActivity extends AppCompatActivity {
 
         setCountryText(countries[pos % countries.length], left2right);
 
-        temperatureSwitcher.setInAnimation(GalleryActivity.this, animH[0]);
-        temperatureSwitcher.setOutAnimation(GalleryActivity.this, animH[1]);
-        temperatureSwitcher.setText(temperatures[pos % temperatures.length]);
+        nickNameTV.setInAnimation(GalleryActivity.this, animH[0]);
+        nickNameTV.setOutAnimation(GalleryActivity.this, animH[1]);
+        nickNameTV.setText(temperatures[pos % temperatures.length]);
 
         placeSwitcher.setInAnimation(GalleryActivity.this, animV[0]);
         placeSwitcher.setOutAnimation(GalleryActivity.this, animV[1]);

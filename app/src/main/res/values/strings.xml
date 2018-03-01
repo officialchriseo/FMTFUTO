@@ -3,6 +3,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="fmt_gallery">FMT Gallery</string>
 
 
     <string name="text1">The museum is housed in the Louvre Palace, originally built as a fortress in the late 12th century…</string>
