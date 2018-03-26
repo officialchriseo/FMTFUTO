@@ -5,6 +5,19 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="fmt_gallery">FMT Gallery</string>
 
+    <string name="l_1">100 Level</string>
+    <string name="l_2">200 Level</string>
+    <string name="l_3">300 Level</string>
+    <string name="l_4">400 Level</string>
+    <string name="l_5">500 Level</string>
+
+    <string name="communicate">Communicate</string>
+    <string name="appreciation">Appreciation</string>
+    <string name="about_department">About Department</string>
+    <string name="navigation">Navigation</string>
+    <string name="location">Location</string>
+    <string name="gallery">Gallery</string>
+
 
     <string name="text1">The museum is housed in the Louvre Palace, originally built as a fortress in the late 12th century…</string>
     <string name="text2">Gwanghwamun is the main and largest gate of Gyeongbokgung Palace, in Jongno-gu, Seoul, South Korea.</string>

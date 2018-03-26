@@ -5,45 +5,50 @@
         <item
             android:id="@+id/year_one"
             android:icon="@drawable/level1"
-            android:title="100 Level" />
+            android:title="@string/l_1" />
         <item
             android:id="@+id/year_two"
             android:icon="@drawable/level2"
-            android:title="200 Level" />
+            android:title="@string/l_2" />
         <item
             android:id="@+id/year_three"
             android:icon="@drawable/level3"
-            android:title="300 Level" />
+            android:title="@string/l_3" />
         <item
             android:id="@+id/year_four"
             android:icon="@drawable/level4"
-            android:title="400 Level" />
+            android:title="@string/l_4" />
         <item
             android:id="@+id/year_five"
             android:icon="@drawable/level5"
-            android:title="500 Level" />
+            android:title="@string/l_5" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/aprreciation_text"
                 android:icon="@drawable/appreciation"
-                android:title="Appreciation" />
+                android:title="@string/appreciation" />
             <item
                 android:id="@+id/about_department"
                 android:icon="@drawable/aboutme"
-                android:title="About Department" />
+                android:title="@string/about_department" />
+            <item
+                android:id="@+id/gallery"
+                android:icon="@drawable/gallery_ic"
+                android:title="@string/gallery"/>
+
         </menu>
     </item>
 
-    <item android:title="Navigation">
+    <item android:title="@string/navigation">
 
         <menu>
             <item
                 android:id="@+id/map_icon"
                 android:icon="@drawable/local"
-                android:title="Location"/>
+                android:title="@string/location"/>
 
         </menu>
 

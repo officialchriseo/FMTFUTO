@@ -44,10 +44,6 @@ public class MainActivity extends AppCompatActivity
             R.drawable.calculator, R.drawable.ratios,
             R.drawable.irricon, R.drawable.stockicon};
 
-    private String url = "https://www.google.com/maps/place/" +
-            "Federal+University+of+Technology+Owerri+Futo/@5.3866373,6.9894373,799m/" +
-            "data=!3m2!1e3!4b1!4m5!3m4!1s0x10425ddd492a75eb:0xdf1788bd477488da!8m2!3d5.386632!4d6.9916314?hl=en";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,8 +101,6 @@ public class MainActivity extends AppCompatActivity
                         myToast.show();
                         break;
                     case 4:
-                        myIntent = new Intent(MainActivity.this, GalleryActivity.class);
-                        startActivity(myIntent);
                         myToast =  Toast.makeText(MainActivity.this, "TVM clicked", Toast.LENGTH_SHORT);
                         myToast.show();
                         break;
@@ -188,6 +182,9 @@ public class MainActivity extends AppCompatActivity
 
             case R.id.map_icon:
                 Intent intent = new Intent(Intent.ACTION_VIEW);
+                String url = "https://www.google.com/maps/place/" +
+                        "Federal+University+of+Technology+Owerri+Futo/@5.3866373,6.9894373,799m/" +
+                        "data=!3m2!1e3!4b1!4m5!3m4!1s0x10425ddd492a75eb:0xdf1788bd477488da!8m2!3d5.386632!4d6.9916314?hl=en";
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
                 break;
@@ -197,34 +194,13 @@ public class MainActivity extends AppCompatActivity
                 startActivity(myIntent);
                 break;
 
+            case R.id.gallery:
+//                myIntent = new Intent(MainActivity.this, GalleryActivity.class);
+//                startActivity(myIntent);
+
         }
 
-//        if (id == R.id.year_one) {
-//
-//            myIntent = new Intent(MainActivity.this, YearOneActivity.class);
-//            startActivity(myIntent);
-//
-//        } else if (id == R.id.year_two) {
-//
-//        } else if (id == R.id.year_three) {
-//
-//        } else if (id == R.id.year_four) {
-//
-//        } else if (id == R.id.year_five) {
-//
-//        } else if (id == R.id.aprreciation_text) {
-//
-//        }else if (id == R.id.map_icon){
-//            Intent intent = new Intent(Intent.ACTION_VIEW);
-//            intent.setData(Uri.parse(url));
-//            startActivity(intent);
-//
-//        }else if (id == R.id.about_department){
-//
-//            myIntent = new Intent(MainActivity.this, AboutDepartment.class);
-//            startActivity(myIntent);
-//
-//        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

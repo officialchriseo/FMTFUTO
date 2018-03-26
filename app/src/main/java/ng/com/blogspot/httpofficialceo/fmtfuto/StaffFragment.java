@@ -31,11 +31,13 @@ public class StaffFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         return recyclerView;
     }
-    public static class ViewHolder extends RecyclerView.ViewHolder {
-        public CircleImageView staffPicture;
-        public TextView staffName;
-        public TextView staffPosition;
-        public ViewHolder(LayoutInflater inflater, ViewGroup parent) {
+    private static class ViewHolder extends RecyclerView.ViewHolder {
+
+        private CircleImageView staffPicture;
+        private TextView staffName;
+        private TextView staffPosition;
+
+        private ViewHolder(LayoutInflater inflater, ViewGroup parent) {
             super(inflater.inflate(R.layout.fragment_staff, parent, false));
             staffPicture = (CircleImageView) itemView.findViewById(R.id.picture);
 
@@ -43,7 +45,7 @@ public class StaffFragment extends Fragment {
 
                 @Override
                 public void onClick(View v) {
-                    return;
+
                 }
             });
             staffName = (TextView) itemView.findViewById(R.id.name);
@@ -59,7 +61,7 @@ public class StaffFragment extends Fragment {
         }
     }
 
-    public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
+    private static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
         // Set numbers of List in RecyclerView.
         private static final int LENGTH = 15;
 
@@ -67,7 +69,7 @@ public class StaffFragment extends Fragment {
         private final String[] staffPossition;
         private final Drawable[] staffPicture;
 
-        public ContentAdapter(Context context) {
+        private ContentAdapter(Context context) {
             Resources resources = context.getResources();
             staffName = resources.getStringArray(R.array.names);
             staffPossition = resources.getStringArray(R.array.positions);
